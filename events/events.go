@@ -9,7 +9,6 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/ethereum/go-ethereum/ethclient"
-	"log"
 	"math/big"
 	"strings"
 )
@@ -23,15 +22,15 @@ type EventCoinDeposited struct {
 var eventGroup = make([]EventCoinDeposited, 0)
 var currentBlock uint64 = 0
 
-func GetEvent() bool {
+func GetEvent() (bool,error) {
 	client, err := ethclient.Dial("http://localhost:9545")
 	if err != nil {
-		log.Fatal(err)
+		return false, err
 	}
 
 	maxBlock, err := client.HeaderByNumber(context.Background(), nil)
 	if err != nil {
-		log.Fatal(err)
+		return false, err
 	}
 
 	contractAddress := common.HexToAddress("0xa86a2c6B81C22d25D8EBAf8cE52895F46A263348")
@@ -45,12 +44,12 @@ func GetEvent() bool {
 
 	logs, err := client.FilterLogs(context.Background(), query)
 	if err != nil {
-		log.Fatal(err)
+		return false, err
 	}
 
 	contractAbi, err := abi.JSON(strings.NewReader(string(store.StoreABI)))
 	if err != nil {
-		log.Fatal(err)
+		return false, err
 	}
 
 
@@ -63,7 +62,7 @@ func GetEvent() bool {
 			var depositEvent EventCoinDeposited
 			err := contractAbi.Unpack(&depositEvent, "CoinDeposited", vLog.Data)
 			if err != nil {
-				log.Fatal(err)
+				return false, err
 			}
 			depositEvent.Who = common.HexToAddress(vLog.Topics[1].Hex())
 			depositEvent.BlockNumber = vLog.BlockNumber
@@ -77,9 +76,9 @@ func GetEvent() bool {
 	}
 
 	if currentBlock >= maxBlock.Number.Uint64() {
-		return false
+		return false, nil
 	}
-	return true
+	return true, nil
 }
 
 func SetLastBlock(v uint64) {
