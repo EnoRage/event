@@ -1,52 +1,38 @@
 package main
 
 import (
+	"sync"
+	"time"
+
 	"./events"
 	"fmt"
-	"strconv"
-	"time"
-	"os"
 )
 
 var round int
 
 func EventListener() {
 	for {
-
-		for {
-
-			 event,err := events.GetEvent()
-
-			 if err != nil{
-			 	fmt.Println(err)
-			 	os.Exit(1)
-			 }
-
-			 if !event{
-			 	break
-			 }
-
-
-			}
+		event := events.GetEvent()
+		fmt.Println(event)
+		if event == true {
+			events.ShowGroup()
+			time.Sleep(time.Second * 4)
+		} else if event == false {
+			time.Sleep(time.Second * 4)
+			continue
 		}
 	}
-
-
-func EventShow() {
-	for {
-		fmt.Println("Show round " + strconv.Itoa(round))
-		round++
-		events.ShowGroup()
-		time.Sleep(time.Second * 15)
-	}
 }
 
-
-
+//func EventShow() {
+//	fmt.Println("Show round " + strconv.Itoa(round))
+//	round++
+//	events.ShowGroup()
+//}
 
 func main() {
+	var wg sync.WaitGroup
+	wg.Add(1)
 	go EventListener()
-	time.Sleep(time.Second * 10)
-	EventShow()
+	wg.Wait()
 }
-

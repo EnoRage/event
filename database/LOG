@@ -1,0 +1,1756 @@
+=============== Dec 4, 2018 (MSK) ===============
+13:31:49.088852 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:31:49.089762 db@open opening
+13:31:49.090677 version@stat F·[] S·0B[] Sc·[]
+13:31:49.090932 db@janitor F·2 G·0
+13:31:49.090994 db@open done T·1.198412ms
+13:31:49.091221 db@close closing
+13:31:49.091313 db@close done T·198.941µs
+=============== Dec 4, 2018 (MSK) ===============
+13:31:49.095122 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:31:49.095489 version@stat F·[] S·0B[] Sc·[]
+13:31:49.095553 db@open opening
+13:31:49.095696 journal@recovery F·1
+13:31:49.096190 journal@recovery recovering @1
+13:31:49.096891 version@stat F·[] S·0B[] Sc·[]
+13:31:49.098274 db@janitor F·2 G·0
+13:31:49.098318 db@open done T·2.732956ms
+13:31:49.098423 db@close closing
+13:31:49.098625 db@close done T·199.94µs
+=============== Dec 4, 2018 (MSK) ===============
+13:31:49.098910 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:31:49.099158 version@stat F·[] S·0B[] Sc·[]
+13:31:49.099188 db@open opening
+13:31:49.099282 journal@recovery F·1
+13:31:49.101997 journal@recovery recovering @2
+13:31:49.102734 memdb@flush created L0@4 N·1 S·272B "eve..oup,v1":"eve..oup,v1"
+13:31:49.105286 version@stat F·[1] S·272B[272B] Sc·[0.25]
+13:31:49.106730 db@janitor F·3 G·0
+13:31:49.106767 db@open done T·7.559238ms
+13:31:49.106843 db@close closing
+13:31:49.107019 db@close done T·173.561µs
+=============== Dec 4, 2018 (MSK) ===============
+13:32:06.752025 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:32:06.752440 version@stat F·[1] S·272B[272B] Sc·[0.25]
+13:32:06.752483 db@open opening
+13:32:06.752580 journal@recovery F·1
+13:32:06.753308 journal@recovery recovering @5
+13:32:06.754824 memdb@flush created L0@7 N·1 S·285B "eve..oup,v3":"eve..oup,v3"
+13:32:06.755290 version@stat F·[2] S·557B[557B] Sc·[0.50]
+13:32:06.756522 db@janitor F·4 G·0
+13:32:06.756576 db@open done T·4.060107ms
+13:32:06.756772 db@close closing
+13:32:06.756913 db@close done T·139.292µs
+=============== Dec 4, 2018 (MSK) ===============
+13:32:06.761371 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:32:06.761759 version@stat F·[2] S·557B[557B] Sc·[0.50]
+13:32:06.761802 db@open opening
+13:32:06.761917 journal@recovery F·1
+13:32:06.764831 journal@recovery recovering @8
+13:32:06.768751 version@stat F·[2] S·557B[557B] Sc·[0.50]
+13:32:06.770522 db@janitor F·4 G·0
+13:32:06.770570 db@open done T·8.748811ms
+13:32:06.770678 db@close closing
+13:32:06.770873 db@close done T·193.569µs
+=============== Dec 4, 2018 (MSK) ===============
+13:32:06.771163 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:32:06.771630 version@stat F·[2] S·557B[557B] Sc·[0.50]
+13:32:06.771672 db@open opening
+13:32:06.771821 journal@recovery F·1
+13:32:06.772479 journal@recovery recovering @10
+13:32:06.773314 memdb@flush created L0@12 N·1 S·272B "eve..oup,v5":"eve..oup,v5"
+13:32:06.774020 version@stat F·[3] S·829B[829B] Sc·[0.75]
+13:32:06.775376 db@janitor F·5 G·0
+13:32:06.775440 db@open done T·3.748089ms
+13:32:06.775564 db@close closing
+13:32:06.775697 db@close done T·130.836µs
+=============== Dec 4, 2018 (MSK) ===============
+13:33:31.224819 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:33:31.225302 version@stat F·[3] S·829B[829B] Sc·[0.75]
+13:33:31.225339 db@open opening
+13:33:31.225430 journal@recovery F·1
+13:33:31.226159 journal@recovery recovering @13
+13:33:31.227182 memdb@flush created L0@15 N·1 S·285B "eve..oup,v7":"eve..oup,v7"
+13:33:31.227542 version@stat F·[4] S·1KiB[1KiB] Sc·[1.00]
+13:33:31.228804 db@janitor F·6 G·0
+13:33:31.228846 db@open done T·3.484552ms
+13:33:31.228934 table@compaction L0·4 -> L1·0 S·1KiB Q·8
+13:33:31.229201 db@close closing
+13:33:31.229549 table@build created L1@18 N·1 S·285B "eve..oup,v7":"eve..oup,v7"
+13:33:31.229590 table@build exiting
+13:33:31.229625 table@build revert @18
+13:33:31.229931 db@close done T·727.593µs
+=============== Dec 4, 2018 (MSK) ===============
+13:33:31.234148 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:33:31.234446 version@stat F·[4] S·1KiB[1KiB] Sc·[1.00]
+13:33:31.234480 db@open opening
+13:33:31.234569 journal@recovery F·1
+13:33:31.235000 journal@recovery recovering @16
+13:33:31.238308 version@stat F·[4] S·1KiB[1KiB] Sc·[1.00]
+13:33:31.240120 db@janitor F·6 G·0
+13:33:31.240163 db@open done T·5.666727ms
+13:33:31.240214 table@compaction L0·4 -> L1·0 S·1KiB Q·8
+13:33:31.240251 db@close closing
+13:33:31.240257 table@build exiting
+13:33:31.240448 db@close done T·187.085µs
+=============== Dec 4, 2018 (MSK) ===============
+13:33:31.240716 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:33:31.240946 version@stat F·[4] S·1KiB[1KiB] Sc·[1.00]
+13:33:31.240973 db@open opening
+13:33:31.241055 journal@recovery F·1
+13:33:31.244392 journal@recovery recovering @18
+13:33:31.245099 memdb@flush created L0@20 N·1 S·272B "eve..oup,v9":"eve..oup,v9"
+13:33:31.245910 version@stat F·[5] S·1KiB[1KiB] Sc·[1.25]
+13:33:31.247296 db@janitor F·7 G·0
+13:33:31.247334 db@open done T·6.347377ms
+13:33:31.247386 table@compaction L0·5 -> L1·0 S·1KiB Q·10
+13:33:31.247435 table@build exiting
+13:33:31.247412 db@close closing
+13:33:31.247619 db@close done T·205.578µs
+=============== Dec 4, 2018 (MSK) ===============
+13:33:31.247838 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:33:31.248085 version@stat F·[5] S·1KiB[1KiB] Sc·[1.25]
+13:33:31.248120 db@open opening
+13:33:31.248233 journal@recovery F·1
+13:33:31.248771 journal@recovery recovering @21
+13:33:31.249679 memdb@flush created L0@23 N·1 S·285B "eve..oup,v11":"eve..oup,v11"
+13:33:31.250439 version@stat F·[6] S·1KiB[1KiB] Sc·[1.50]
+13:33:31.251738 db@janitor F·8 G·0
+13:33:31.251770 db@open done T·3.628455ms
+13:33:31.252158 table@compaction L0·6 -> L1·0 S·1KiB Q·12
+13:33:31.252208 table@build exiting
+13:33:31.252251 db@close closing
+13:33:31.252543 db@close done T·396.212µs
+=============== Dec 4, 2018 (MSK) ===============
+13:34:47.592940 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:34:47.593430 version@stat F·[6] S·1KiB[1KiB] Sc·[1.50]
+13:34:47.593460 db@open opening
+13:34:47.593556 journal@recovery F·1
+13:34:47.594356 journal@recovery recovering @24
+13:34:47.595237 memdb@flush created L0@26 N·1 S·298B "eve..oup,v13":"eve..oup,v13"
+13:34:47.595597 version@stat F·[7] S·1KiB[1KiB] Sc·[1.75]
+13:34:47.596866 db@janitor F·9 G·0
+13:34:47.596906 db@open done T·3.427162ms
+13:34:47.596960 table@compaction L0·7 -> L1·0 S·1KiB Q·14
+13:34:47.597456 db@close closing
+13:34:47.597782 table@build created L1@29 N·1 S·298B "eve..oup,v13":"eve..oup,v13"
+13:34:47.597809 table@build exiting
+13:34:47.597824 table@build revert @29
+13:34:47.598042 db@close done T·584.62µs
+=============== Dec 4, 2018 (MSK) ===============
+13:34:57.604984 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:34:57.606849 version@stat F·[7] S·1KiB[1KiB] Sc·[1.75]
+13:34:57.606884 db@open opening
+13:34:57.607015 journal@recovery F·1
+13:34:57.609526 journal@recovery recovering @27
+13:34:57.612488 version@stat F·[7] S·1KiB[1KiB] Sc·[1.75]
+13:34:57.614140 db@janitor F·9 G·0
+13:34:57.614177 db@open done T·7.27572ms
+13:34:57.614260 table@compaction L0·7 -> L1·0 S·1KiB Q·14
+13:34:57.614298 db@close closing
+13:34:57.614312 table@build exiting
+13:34:57.614471 db@close done T·171.144µs
+=============== Dec 4, 2018 (MSK) ===============
+13:34:57.614716 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:34:57.614948 version@stat F·[7] S·1KiB[1KiB] Sc·[1.75]
+13:34:57.614982 db@open opening
+13:34:57.615072 journal@recovery F·1
+13:34:57.615859 journal@recovery recovering @29
+13:34:57.616437 memdb@flush created L0@31 N·1 S·272B "eve..oup,v15":"eve..oup,v15"
+13:34:57.616794 version@stat F·[8] S·2KiB[2KiB] Sc·[2.00]
+13:34:57.618198 db@janitor F·10 G·0
+13:34:57.618271 db@open done T·3.26846ms
+13:34:57.618556 table@compaction L0·8 -> L1·0 S·2KiB Q·16
+13:34:57.619256 table@build created L1@34 N·1 S·272B "eve..oup,v15":"eve..oup,v15"
+13:34:57.619296 version@stat F·[0 1] S·272B[0B 272B] Sc·[0.00 0.00]
+13:34:57.619421 db@close closing
+13:34:57.619432 table@compaction committed F-7 S-1KiB Ke·0 D·7 T·833.062µs
+13:34:57.619614 table@remove removed @31
+13:34:57.619720 table@remove removed @26
+13:34:57.619905 table@remove removed @23
+13:34:57.620082 table@remove removed @20
+13:34:57.620270 table@remove removed @15
+13:34:57.620461 table@remove removed @12
+13:34:57.620567 table@remove removed @7
+13:34:57.620716 table@remove removed @4
+13:34:57.620810 db@write was delayed N·1 T·1.040214ms
+13:34:57.620872 db@close done T·1.447491ms
+=============== Dec 4, 2018 (MSK) ===============
+13:34:57.621166 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:34:57.621524 version@stat F·[0 1] S·272B[0B 272B] Sc·[0.00 0.00]
+13:34:57.621555 db@open opening
+13:34:57.621656 journal@recovery F·1
+13:34:57.622343 journal@recovery recovering @32
+13:34:57.623062 memdb@flush created L0@35 N·1 S·285B "eve..oup,v17":"eve..oup,v17"
+13:34:57.623878 version@stat F·[1 1] S·557B[285B 272B] Sc·[0.25 0.00]
+13:34:57.625602 db@janitor F·4 G·0
+13:34:57.625635 db@open done T·4.063909ms
+13:34:57.625699 db@close closing
+13:34:57.625922 db@close done T·203.833µs
+=============== Dec 4, 2018 (MSK) ===============
+13:34:57.626178 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:34:57.626394 version@stat F·[1 1] S·557B[285B 272B] Sc·[0.25 0.00]
+13:34:57.626426 db@open opening
+13:34:57.626511 journal@recovery F·1
+13:34:57.627086 journal@recovery recovering @36
+13:34:57.627546 memdb@flush created L0@38 N·1 S·298B "eve..oup,v19":"eve..oup,v19"
+13:34:57.628190 version@stat F·[2 1] S·855B[583B 272B] Sc·[0.50 0.00]
+13:34:57.629627 db@janitor F·5 G·0
+13:34:57.629680 db@open done T·3.233451ms
+13:34:57.629794 db@close closing
+13:34:57.630039 db@close done T·238.31µs
+=============== Dec 4, 2018 (MSK) ===============
+13:40:44.870183 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:40:44.870592 version@stat F·[2 1] S·855B[583B 272B] Sc·[0.50 0.00]
+13:40:44.870625 db@open opening
+13:40:44.870737 journal@recovery F·1
+13:40:44.871537 journal@recovery recovering @39
+13:40:44.872433 memdb@flush created L0@41 N·1 S·308B "eve..oup,v21":"eve..oup,v21"
+13:40:44.872884 version@stat F·[3 1] S·1KiB[891B 272B] Sc·[0.75 0.00]
+13:40:44.874243 db@janitor F·6 G·0
+13:40:44.874311 db@open done T·3.64094ms
+13:40:44.874615 db@close closing
+13:40:44.874814 db@close done T·195.379µs
+=============== Dec 4, 2018 (MSK) ===============
+13:40:54.878691 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:40:54.880972 version@stat F·[3 1] S·1KiB[891B 272B] Sc·[0.75 0.00]
+13:40:54.881001 db@open opening
+13:40:54.881121 journal@recovery F·1
+13:40:54.883839 journal@recovery recovering @42
+13:40:54.887539 version@stat F·[3 1] S·1KiB[891B 272B] Sc·[0.75 0.00]
+13:40:54.889087 db@janitor F·6 G·0
+13:40:54.889136 db@open done T·8.120314ms
+13:40:54.889229 db@close closing
+13:40:54.889463 db@close done T·215.517µs
+=============== Dec 4, 2018 (MSK) ===============
+13:40:54.889753 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:40:54.889959 version@stat F·[3 1] S·1KiB[891B 272B] Sc·[0.75 0.00]
+13:40:54.889986 db@open opening
+13:40:54.890131 journal@recovery F·1
+13:40:54.890617 journal@recovery recovering @44
+13:40:54.891242 memdb@flush created L0@46 N·1 S·272B "eve..oup,v23":"eve..oup,v23"
+13:40:54.891879 version@stat F·[4 1] S·1KiB[1KiB 272B] Sc·[1.00 0.00]
+13:40:54.893476 db@janitor F·7 G·0
+13:40:54.893514 db@open done T·3.49657ms
+13:40:54.893588 db@close closing
+13:40:54.893593 table@compaction L0·4 -> L1·1 S·1KiB Q·25
+13:40:54.893640 table@build exiting
+13:40:54.893860 db@close done T·269.588µs
+=============== Dec 4, 2018 (MSK) ===============
+13:40:54.894200 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:40:54.894526 version@stat F·[4 1] S·1KiB[1KiB 272B] Sc·[1.00 0.00]
+13:40:54.894580 db@open opening
+13:40:54.894729 journal@recovery F·1
+13:40:54.895330 journal@recovery recovering @47
+13:40:54.895946 memdb@flush created L0@49 N·1 S·285B "eve..oup,v25":"eve..oup,v25"
+13:40:54.896733 version@stat F·[5 1] S·1KiB[1KiB 272B] Sc·[1.25 0.00]
+13:40:54.898499 db@janitor F·8 G·0
+13:40:54.898544 db@open done T·3.933815ms
+13:40:54.898620 db@close closing
+13:40:54.898677 table@compaction L0·5 -> L1·1 S·1KiB Q·27
+13:40:54.898708 table@build exiting
+13:40:54.898848 db@close done T·225.842µs
+=============== Dec 4, 2018 (MSK) ===============
+13:40:54.899055 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:40:54.899264 version@stat F·[5 1] S·1KiB[1KiB 272B] Sc·[1.25 0.00]
+13:40:54.899290 db@open opening
+13:40:54.899423 journal@recovery F·1
+13:40:54.899763 journal@recovery recovering @50
+13:40:54.900144 memdb@flush created L0@52 N·1 S·298B "eve..oup,v27":"eve..oup,v27"
+13:40:54.903379 version@stat F·[6 1] S·1KiB[1KiB 272B] Sc·[1.50 0.00]
+13:40:54.904886 db@janitor F·9 G·0
+13:40:54.904925 db@open done T·5.62123ms
+13:40:54.904967 table@compaction L0·6 -> L1·1 S·1KiB Q·28
+13:40:54.905000 db@close closing
+13:40:54.905004 table@build exiting
+13:40:54.905193 db@close done T·191.603µs
+=============== Dec 4, 2018 (MSK) ===============
+13:41:07.093864 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:41:07.094287 version@stat F·[6 1] S·1KiB[1KiB 272B] Sc·[1.50 0.00]
+13:41:07.094331 db@open opening
+13:41:07.094484 journal@recovery F·1
+13:41:07.095146 journal@recovery recovering @53
+13:41:07.096093 memdb@flush created L0@55 N·1 S·308B "eve..oup,v29":"eve..oup,v29"
+13:41:07.096486 version@stat F·[7 1] S·2KiB[2KiB 272B] Sc·[1.75 0.00]
+13:41:07.097664 db@janitor F·10 G·0
+13:41:07.097716 db@open done T·3.352236ms
+13:41:07.097810 table@compaction L0·7 -> L1·1 S·2KiB Q·30
+13:41:07.098219 db@close closing
+13:41:07.098717 table@build created L1@58 N·1 S·308B "eve..oup,v29":"eve..oup,v29"
+13:41:07.098779 table@build exiting
+13:41:07.098802 table@build revert @58
+13:41:07.099077 db@close done T·856.422µs
+=============== Dec 4, 2018 (MSK) ===============
+13:41:11.110113 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:41:11.112224 version@stat F·[7 1] S·2KiB[2KiB 272B] Sc·[1.75 0.00]
+13:41:11.112284 db@open opening
+13:41:11.112511 journal@recovery F·1
+13:41:11.115501 journal@recovery recovering @56
+13:41:11.116168 version@stat F·[7 1] S·2KiB[2KiB 272B] Sc·[1.75 0.00]
+13:41:11.117382 db@janitor F·10 G·0
+13:41:11.117419 db@open done T·5.092654ms
+13:41:11.117468 table@compaction L0·7 -> L1·1 S·2KiB Q·30
+13:41:11.117538 db@close closing
+13:41:11.118146 db@close done T·607.661µs
+=============== Dec 4, 2018 (MSK) ===============
+13:41:11.118447 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:41:11.118658 version@stat F·[7 1] S·2KiB[2KiB 272B] Sc·[1.75 0.00]
+13:41:11.118684 db@open opening
+13:41:11.118785 journal@recovery F·1
+13:41:11.121503 journal@recovery recovering @58
+13:41:11.122448 memdb@flush created L0@60 N·1 S·272B "eve..oup,v31":"eve..oup,v31"
+13:41:11.123195 version@stat F·[8 1] S·2KiB[2KiB 272B] Sc·[2.00 0.00]
+13:41:11.126394 db@janitor F·11 G·0
+13:41:11.126471 db@open done T·7.767598ms
+13:41:11.126562 table@compaction L0·8 -> L1·1 S·2KiB Q·32
+13:41:11.127736 db@close closing
+13:41:11.127924 table@build created L1@63 N·1 S·272B "eve..oup,v31":"eve..oup,v31"
+13:41:11.127966 table@build exiting
+13:41:11.127981 table@build revert @63
+13:41:11.128182 db@write was delayed N·1 T·1.105314ms
+13:41:11.128431 db@close done T·690.608µs
+=============== Dec 4, 2018 (MSK) ===============
+13:41:11.128781 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:41:11.129178 version@stat F·[8 1] S·2KiB[2KiB 272B] Sc·[2.00 0.00]
+13:41:11.129210 db@open opening
+13:41:11.129312 journal@recovery F·1
+13:41:11.129954 journal@recovery recovering @61
+13:41:11.130625 memdb@flush created L0@63 N·1 S·285B "eve..oup,v33":"eve..oup,v33"
+13:41:11.131260 version@stat F·[9 1] S·2KiB[2KiB 272B] Sc·[2.25 0.00]
+13:41:11.132619 db@janitor F·12 G·0
+13:41:11.132653 db@open done T·3.428479ms
+13:41:11.132698 table@compaction L0·9 -> L1·1 S·2KiB Q·34
+13:41:11.133553 table@build created L1@66 N·1 S·285B "eve..oup,v33":"eve..oup,v33"
+13:41:11.133615 version@stat F·[0 1] S·285B[0B 285B] Sc·[0.00 0.00]
+13:41:11.133751 table@compaction committed F-9 S-2KiB Ke·0 D·9 T·989.439µs
+13:41:11.133860 table@remove removed @63
+13:41:11.133965 table@remove removed @60
+13:41:11.134062 table@remove removed @55
+13:41:11.134216 table@remove removed @52
+13:41:11.134347 table@remove removed @49
+13:41:11.134498 table@remove removed @46
+13:41:11.134659 table@remove removed @41
+13:41:11.134777 table@remove removed @38
+13:41:11.134881 table@remove removed @35
+13:41:11.134980 table@remove removed @34
+13:41:11.135038 db@close closing
+13:41:11.135110 db@write was delayed N·1 T·2.270657ms
+13:41:11.135152 db@close done T·113.313µs
+=============== Dec 4, 2018 (MSK) ===============
+13:41:11.135377 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:41:11.135625 version@stat F·[0 1] S·285B[0B 285B] Sc·[0.00 0.00]
+13:41:11.135663 db@open opening
+13:41:11.135787 journal@recovery F·1
+13:41:11.136468 journal@recovery recovering @64
+13:41:11.137087 memdb@flush created L0@67 N·1 S·298B "eve..oup,v35":"eve..oup,v35"
+13:41:11.137844 version@stat F·[1 1] S·583B[298B 285B] Sc·[0.25 0.00]
+13:41:11.139713 db@janitor F·4 G·0
+13:41:11.139758 db@open done T·4.067879ms
+13:41:11.139889 db@close closing
+13:41:11.140094 db@close done T·200.253µs
+=============== Dec 4, 2018 (MSK) ===============
+13:41:11.140415 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:41:11.140723 version@stat F·[1 1] S·583B[298B 285B] Sc·[0.25 0.00]
+13:41:11.140758 db@open opening
+13:41:11.140875 journal@recovery F·1
+13:41:11.141461 journal@recovery recovering @68
+13:41:11.142637 memdb@flush created L0@70 N·1 S·308B "eve..oup,v37":"eve..oup,v37"
+13:41:11.143690 version@stat F·[2 1] S·891B[606B 285B] Sc·[0.50 0.00]
+13:41:11.145382 db@janitor F·5 G·0
+13:41:11.145457 db@open done T·4.67559ms
+13:41:11.145619 db@close closing
+13:41:11.145949 db@close done T·324.834µs
+=============== Dec 4, 2018 (MSK) ===============
+13:41:11.146584 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:41:11.147135 version@stat F·[2 1] S·891B[606B 285B] Sc·[0.50 0.00]
+13:41:11.147197 db@open opening
+13:41:11.147335 journal@recovery F·1
+13:41:11.147993 journal@recovery recovering @71
+13:41:11.148578 memdb@flush created L0@73 N·1 S·316B "eve..oup,v39":"eve..oup,v39"
+13:41:11.149291 version@stat F·[3 1] S·1KiB[922B 285B] Sc·[0.75 0.00]
+13:41:11.171643 db@janitor F·6 G·0
+13:41:11.171677 db@open done T·24.464497ms
+13:41:11.171805 db@close closing
+13:41:11.172042 db@close done T·230.832µs
+=============== Dec 4, 2018 (MSK) ===============
+13:41:11.172526 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:41:11.172863 version@stat F·[3 1] S·1KiB[922B 285B] Sc·[0.75 0.00]
+13:41:11.172920 db@open opening
+13:41:11.173030 journal@recovery F·1
+13:41:11.173636 journal@recovery recovering @74
+13:41:11.174762 memdb@flush created L0@76 N·1 S·324B "eve..oup,v41":"eve..oup,v41"
+13:41:11.176323 version@stat F·[4 1] S·1KiB[1KiB 285B] Sc·[1.00 0.00]
+13:41:11.177760 db@janitor F·7 G·0
+13:41:11.177803 db@open done T·4.849526ms
+13:41:11.177875 table@compaction L0·4 -> L1·1 S·1KiB Q·42
+13:41:11.177922 table@build exiting
+13:41:11.177879 db@close closing
+13:41:11.178144 db@close done T·261.883µs
+=============== Dec 4, 2018 (MSK) ===============
+13:42:31.696284 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:42:31.696658 version@stat F·[4 1] S·1KiB[1KiB 285B] Sc·[1.00 0.00]
+13:42:31.696687 db@open opening
+13:42:31.696801 journal@recovery F·1
+13:42:31.697437 journal@recovery recovering @77
+13:42:31.698282 memdb@flush created L0@79 N·1 S·332B "eve..oup,v43":"eve..oup,v43"
+13:42:31.698706 version@stat F·[5 1] S·1KiB[1KiB 285B] Sc·[1.25 0.00]
+13:42:31.699913 db@janitor F·8 G·0
+13:42:31.699963 db@open done T·3.252355ms
+13:42:31.700053 table@compaction L0·5 -> L1·1 S·1KiB Q·44
+13:42:31.700425 db@close closing
+13:42:31.700911 table@build created L1@82 N·1 S·332B "eve..oup,v43":"eve..oup,v43"
+13:42:31.700949 table@build exiting
+13:42:31.700981 table@build revert @82
+13:42:31.701327 db@close done T·900.439µs
+=============== Dec 4, 2018 (MSK) ===============
+13:42:35.710106 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:42:35.712462 version@stat F·[5 1] S·1KiB[1KiB 285B] Sc·[1.25 0.00]
+13:42:35.712497 db@open opening
+13:42:35.712628 journal@recovery F·1
+13:42:35.712963 journal@recovery recovering @80
+13:42:35.713643 version@stat F·[5 1] S·1KiB[1KiB 285B] Sc·[1.25 0.00]
+13:42:35.714918 db@janitor F·8 G·0
+13:42:35.714957 db@open done T·2.439779ms
+13:42:35.715033 table@compaction L0·5 -> L1·1 S·1KiB Q·44
+13:42:35.715078 table@build exiting
+13:42:35.715049 db@close closing
+13:42:35.715266 db@close done T·215.613µs
+=============== Dec 4, 2018 (MSK) ===============
+13:42:35.715499 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:42:35.715779 version@stat F·[5 1] S·1KiB[1KiB 285B] Sc·[1.25 0.00]
+13:42:35.715810 db@open opening
+13:42:35.715905 journal@recovery F·1
+13:42:35.719102 journal@recovery recovering @82
+13:42:35.719905 memdb@flush created L0@84 N·1 S·272B "eve..oup,v45":"eve..oup,v45"
+13:42:35.722990 version@stat F·[6 1] S·2KiB[1KiB 285B] Sc·[1.50 0.00]
+13:42:35.725151 db@janitor F·9 G·0
+13:42:35.725201 db@open done T·9.374081ms
+13:42:35.725287 table@compaction L0·6 -> L1·1 S·2KiB Q·46
+13:42:35.725349 table@build exiting
+13:42:35.725321 db@close closing
+13:42:35.725610 db@close done T·283.179µs
+=============== Dec 4, 2018 (MSK) ===============
+13:42:35.725882 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:42:35.726216 version@stat F·[6 1] S·2KiB[1KiB 285B] Sc·[1.50 0.00]
+13:42:35.726263 db@open opening
+13:42:35.726436 journal@recovery F·1
+13:42:35.727274 journal@recovery recovering @85
+13:42:35.727880 memdb@flush created L0@87 N·1 S·285B "eve..oup,v47":"eve..oup,v47"
+13:42:35.728770 version@stat F·[7 1] S·2KiB[2KiB 285B] Sc·[1.75 0.00]
+13:42:35.730175 db@janitor F·10 G·0
+13:42:35.730222 db@open done T·3.92342ms
+13:42:35.730312 table@compaction L0·7 -> L1·1 S·2KiB Q·48
+13:42:35.730384 db@close closing
+13:42:35.731164 db@close done T·777.981µs
+=============== Dec 4, 2018 (MSK) ===============
+13:42:35.731422 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:42:35.731663 version@stat F·[7 1] S·2KiB[2KiB 285B] Sc·[1.75 0.00]
+13:42:35.731695 db@open opening
+13:42:35.731798 journal@recovery F·1
+13:42:35.734749 journal@recovery recovering @88
+13:42:35.735452 memdb@flush created L0@90 N·1 S·298B "eve..oup,v49":"eve..oup,v49"
+13:42:35.736115 version@stat F·[8 1] S·2KiB[2KiB 285B] Sc·[2.00 0.00]
+13:42:35.737738 db@janitor F·11 G·0
+13:42:35.737778 db@open done T·6.067346ms
+13:42:35.737882 table@compaction L0·8 -> L1·1 S·2KiB Q·50
+13:42:35.739009 db@close closing
+13:42:35.739100 table@build created L1@93 N·1 S·298B "eve..oup,v49":"eve..oup,v49"
+13:42:35.739132 table@build exiting
+13:42:35.739147 table@build revert @93
+13:42:35.739314 db@write was delayed N·1 T·1.09514ms
+13:42:35.739442 db@close done T·435.46µs
+=============== Dec 4, 2018 (MSK) ===============
+13:42:35.739750 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:42:35.740161 version@stat F·[8 1] S·2KiB[2KiB 285B] Sc·[2.00 0.00]
+13:42:35.740211 db@open opening
+13:42:35.740387 journal@recovery F·1
+13:42:35.741887 journal@recovery recovering @91
+13:42:35.742693 memdb@flush created L0@93 N·1 S·308B "eve..oup,v51":"eve..oup,v51"
+13:42:35.743136 version@stat F·[9 1] S·2KiB[2KiB 285B] Sc·[2.25 0.00]
+13:42:35.744237 db@janitor F·12 G·0
+13:42:35.744271 db@open done T·4.031608ms
+13:42:35.744328 table@compaction L0·9 -> L1·1 S·2KiB Q·52
+13:42:35.745561 db@close closing
+13:42:35.745956 table@build created L1@96 N·1 S·308B "eve..oup,v51":"eve..oup,v51"
+13:42:35.745986 table@build exiting
+13:42:35.746008 table@build revert @96
+13:42:35.746263 db@write was delayed N·1 T·1.162955ms
+13:42:35.746434 db@close done T·874.871µs
+=============== Dec 4, 2018 (MSK) ===============
+13:42:35.746730 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:42:35.747173 version@stat F·[9 1] S·2KiB[2KiB 285B] Sc·[2.25 0.00]
+13:42:35.747205 db@open opening
+13:42:35.747306 journal@recovery F·1
+13:42:35.747687 journal@recovery recovering @94
+13:42:35.748183 memdb@flush created L0@96 N·1 S·316B "eve..oup,v53":"eve..oup,v53"
+13:42:35.751258 version@stat F·[10 1] S·3KiB[2KiB 285B] Sc·[2.50 0.00]
+13:42:35.752689 db@janitor F·13 G·0
+13:42:35.752722 db@open done T·5.501871ms
+13:42:35.752802 table@compaction L0·10 -> L1·1 S·3KiB Q·54
+13:42:35.753780 table@build created L1@99 N·1 S·316B "eve..oup,v53":"eve..oup,v53"
+13:42:35.753828 version@stat F·[0 1] S·316B[0B 316B] Sc·[0.00 0.00]
+13:42:35.754008 table@compaction committed F-10 S-2KiB Ke·0 D·10 T·1.167088ms
+13:42:35.754121 table@remove removed @96
+13:42:35.754243 table@remove removed @93
+13:42:35.754405 table@remove removed @90
+13:42:35.754624 table@remove removed @87
+13:42:35.754064 db@close closing
+13:42:35.754896 table@remove removed @84
+13:42:35.755056 table@remove removed @79
+13:42:35.755208 table@remove removed @76
+13:42:35.755341 table@remove removed @73
+13:42:35.755502 table@remove removed @70
+13:42:35.755593 table@remove removed @67
+13:42:35.755676 table@remove removed @66
+13:42:35.755848 db@write was delayed N·1 T·1.255275ms
+13:42:35.755924 db@close done T·1.857845ms
+=============== Dec 4, 2018 (MSK) ===============
+13:42:35.756304 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:42:35.756616 version@stat F·[0 1] S·316B[0B 316B] Sc·[0.00 0.00]
+13:42:35.756660 db@open opening
+13:42:35.756738 journal@recovery F·1
+13:42:35.757316 journal@recovery recovering @97
+13:42:35.758019 memdb@flush created L0@100 N·1 S·324B "eve..oup,v55":"eve..oup,v55"
+13:42:35.758658 version@stat F·[1 1] S·640B[324B 316B] Sc·[0.25 0.00]
+13:42:35.759832 db@janitor F·4 G·0
+13:42:35.759857 db@open done T·3.182983ms
+13:42:35.759927 db@close closing
+13:42:35.760124 db@close done T·192.81µs
+=============== Dec 4, 2018 (MSK) ===============
+13:45:17.550269 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:45:17.554145 version@stat F·[1 1] S·640B[324B 316B] Sc·[0.25 0.00]
+13:45:17.554450 db@open opening
+13:45:17.554591 journal@recovery F·1
+13:45:17.555570 journal@recovery recovering @101
+13:45:17.556435 memdb@flush created L0@103 N·1 S·332B "eve..oup,v57":"eve..oup,v57"
+13:45:17.557329 version@stat F·[2 1] S·972B[656B 316B] Sc·[0.50 0.00]
+13:45:17.558773 db@janitor F·5 G·0
+13:45:17.558818 db@open done T·4.340383ms
+13:45:17.558895 db@close closing
+13:45:17.559084 db@close done T·183.444µs
+=============== Dec 4, 2018 (MSK) ===============
+13:45:17.559346 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:45:17.559702 version@stat F·[2 1] S·972B[656B 316B] Sc·[0.50 0.00]
+13:45:17.559735 db@open opening
+13:45:17.559868 journal@recovery F·1
+13:45:17.563057 journal@recovery recovering @104
+13:45:17.563954 memdb@flush created L0@106 N·1 S·200B "eve..ock,v59":"eve..ock,v59"
+13:45:17.567472 version@stat F·[3 1] S·1KiB[856B 316B] Sc·[0.75 0.00]
+13:45:17.569047 db@janitor F·6 G·0
+13:45:17.569088 db@open done T·9.333119ms
+13:45:17.569436 db@close closing
+13:45:17.569637 db@close done T·194.683µs
+=============== Dec 4, 2018 (MSK) ===============
+13:45:21.573756 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:45:21.575888 version@stat F·[3 1] S·1KiB[856B 316B] Sc·[0.75 0.00]
+13:45:21.575920 db@open opening
+13:45:21.576006 journal@recovery F·1
+13:45:21.576620 journal@recovery recovering @107
+13:45:21.579710 version@stat F·[3 1] S·1KiB[856B 316B] Sc·[0.75 0.00]
+13:45:21.580815 db@janitor F·6 G·0
+13:45:21.580850 db@open done T·4.915254ms
+13:45:21.580983 db@close closing
+13:45:21.581190 db@close done T·206.29µs
+=============== Dec 4, 2018 (MSK) ===============
+13:45:21.581400 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:45:21.581708 version@stat F·[3 1] S·1KiB[856B 316B] Sc·[0.75 0.00]
+13:45:21.581744 db@open opening
+13:45:21.581844 journal@recovery F·1
+13:45:21.582869 journal@recovery recovering @109
+13:45:21.583545 memdb@flush created L0@111 N·1 S·272B "eve..oup,v61":"eve..oup,v61"
+13:45:21.584422 version@stat F·[4 1] S·1KiB[1KiB 316B] Sc·[1.00 0.00]
+13:45:21.586015 db@janitor F·7 G·0
+13:45:21.586057 db@open done T·4.293652ms
+13:45:21.586141 table@compaction L0·3 -> L1·1 S·1KiB Q·62
+13:45:21.586188 db@close closing
+13:45:21.586640 db@close done T·449.619µs
+=============== Dec 4, 2018 (MSK) ===============
+13:45:21.586878 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:45:21.587254 version@stat F·[4 1] S·1KiB[1KiB 316B] Sc·[1.00 0.00]
+13:45:21.587298 db@open opening
+13:45:21.587430 journal@recovery F·1
+13:45:21.588155 journal@recovery recovering @112
+13:45:21.589055 memdb@flush created L0@114 N·1 S·285B "eve..oup,v63":"eve..oup,v63"
+13:45:21.589925 version@stat F·[5 1] S·1KiB[1KiB 316B] Sc·[1.25 0.00]
+13:45:21.591419 db@janitor F·8 G·0
+13:45:21.591451 db@open done T·4.130524ms
+13:45:21.591534 db@close closing
+13:45:21.591537 table@compaction L0·4 -> L1·1 S·1KiB Q·64
+13:45:21.591579 table@build exiting
+13:45:21.591740 db@close done T·204.861µs
+=============== Dec 4, 2018 (MSK) ===============
+13:45:21.591965 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:45:21.592258 version@stat F·[5 1] S·1KiB[1KiB 316B] Sc·[1.25 0.00]
+13:45:21.592283 db@open opening
+13:45:21.592379 journal@recovery F·1
+13:45:21.592823 journal@recovery recovering @115
+13:45:21.593368 memdb@flush created L0@117 N·1 S·298B "eve..oup,v65":"eve..oup,v65"
+13:45:21.593876 version@stat F·[6 1] S·1KiB[1KiB 316B] Sc·[1.50 0.00]
+13:45:21.594998 db@janitor F·9 G·0
+13:45:21.595030 db@open done T·2.735808ms
+13:45:21.595069 table@compaction L0·5 -> L1·1 S·1KiB Q·66
+13:45:21.595094 db@close closing
+13:45:21.596072 db@close done T·956.509µs
+=============== Dec 4, 2018 (MSK) ===============
+13:45:21.596399 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:45:21.596607 version@stat F·[6 1] S·1KiB[1KiB 316B] Sc·[1.50 0.00]
+13:45:21.596635 db@open opening
+13:45:21.596717 journal@recovery F·1
+13:45:21.597072 journal@recovery recovering @118
+13:45:21.597436 memdb@flush created L0@120 N·1 S·308B "eve..oup,v67":"eve..oup,v67"
+13:45:21.600489 version@stat F·[7 1] S·2KiB[1KiB 316B] Sc·[1.75 0.00]
+13:45:21.601871 db@janitor F·10 G·0
+13:45:21.601918 db@open done T·5.267928ms
+13:45:21.601958 table@compaction L0·6 -> L1·1 S·2KiB Q·68
+13:45:21.601999 db@close closing
+13:45:21.602654 db@close done T·655.515µs
+=============== Dec 4, 2018 (MSK) ===============
+13:45:21.602964 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:45:21.603212 version@stat F·[7 1] S·2KiB[1KiB 316B] Sc·[1.75 0.00]
+13:45:21.603242 db@open opening
+13:45:21.603334 journal@recovery F·1
+13:45:21.603851 journal@recovery recovering @121
+13:45:21.604309 memdb@flush created L0@123 N·1 S·316B "eve..oup,v69":"eve..oup,v69"
+13:45:21.604923 version@stat F·[8 1] S·2KiB[2KiB 316B] Sc·[2.00 0.00]
+13:45:21.606155 db@janitor F·11 G·0
+13:45:21.606192 db@open done T·2.936837ms
+13:45:21.606231 table@compaction L0·7 -> L1·1 S·2KiB Q·70
+13:45:21.606992 table@build created L1@126 N·1 S·316B "eve..oup,v69":"eve..oup,v69"
+13:45:21.607060 version@stat F·[1 1] S·516B[200B 316B] Sc·[0.25 0.00]
+13:45:21.607227 table@compaction committed F-7 S-2KiB Ke·0 D·7 T·946.043µs
+13:45:21.607384 table@remove removed @123
+13:45:21.607534 table@remove removed @120
+13:45:21.607648 table@remove removed @117
+13:45:21.607789 table@remove removed @114
+13:45:21.607943 table@remove removed @111
+13:45:21.608087 table@remove removed @103
+13:45:21.608230 table@remove removed @100
+13:45:21.608403 table@remove removed @99
+13:45:21.608508 db@close closing
+13:45:21.608609 db@write was delayed N·1 T·2.231098ms
+13:45:21.608661 db@close done T·152.476µs
+=============== Dec 4, 2018 (MSK) ===============
+13:45:21.608988 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:45:21.609376 version@stat F·[1 1] S·516B[200B 316B] Sc·[0.25 0.00]
+13:45:21.609419 db@open opening
+13:45:21.609540 journal@recovery F·1
+13:45:21.610201 journal@recovery recovering @124
+13:45:21.610737 memdb@flush created L0@127 N·1 S·324B "eve..oup,v71":"eve..oup,v71"
+13:45:21.611407 version@stat F·[2 1] S·840B[524B 316B] Sc·[0.50 0.00]
+13:45:21.613065 db@janitor F·5 G·0
+13:45:21.613094 db@open done T·3.658699ms
+13:45:21.613153 db@close closing
+13:45:21.613276 db@close done T·121.881µs
+=============== Dec 4, 2018 (MSK) ===============
+13:45:21.613440 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:45:21.613667 version@stat F·[2 1] S·840B[524B 316B] Sc·[0.50 0.00]
+13:45:21.613690 db@open opening
+13:45:21.613763 journal@recovery F·1
+13:45:21.614082 journal@recovery recovering @128
+13:45:21.614448 memdb@flush created L0@130 N·1 S·332B "eve..oup,v73":"eve..oup,v73"
+13:45:21.615196 version@stat F·[3 1] S·1KiB[856B 316B] Sc·[0.75 0.00]
+13:45:21.616626 db@janitor F·6 G·0
+13:45:21.616651 db@open done T·2.947757ms
+13:45:21.616723 db@close closing
+13:45:21.616901 db@close done T·174.102µs
+=============== Dec 4, 2018 (MSK) ===============
+13:45:25.620717 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:45:25.621017 version@stat F·[3 1] S·1KiB[856B 316B] Sc·[0.75 0.00]
+13:45:25.621048 db@open opening
+13:45:25.621138 journal@recovery F·1
+13:45:25.621770 journal@recovery recovering @131
+13:45:25.623062 memdb@flush created L0@133 N·1 S·200B "eve..ock,v75":"eve..ock,v75"
+13:45:25.623969 version@stat F·[4 1] S·1KiB[1KiB 316B] Sc·[1.00 0.00]
+13:45:25.625738 db@janitor F·7 G·0
+13:45:25.625773 db@open done T·4.708094ms
+13:45:25.625839 table@compaction L0·2 -> L1·0 S·400B Q·76
+13:45:25.625888 db@close closing
+13:45:25.626221 db@close done T·333.687µs
+=============== Dec 4, 2018 (MSK) ===============
+13:45:25.626505 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:45:25.626713 version@stat F·[4 1] S·1KiB[1KiB 316B] Sc·[1.00 0.00]
+13:45:25.626746 db@open opening
+13:45:25.626848 journal@recovery F·1
+13:45:25.627437 journal@recovery recovering @134
+13:45:25.628291 memdb@flush created L0@136 N·1 S·341B "eve..oup,v77":"eve..oup,v77"
+13:45:25.630034 version@stat F·[5 1] S·1KiB[1KiB 316B] Sc·[1.25 0.00]
+13:45:25.631743 db@janitor F·8 G·0
+13:45:25.631811 db@open done T·5.032514ms
+13:45:25.631849 table@compaction L0·3 -> L1·1 S·1KiB Q·78
+13:45:25.631947 db@close closing
+13:45:25.632549 db@close done T·599.528µs
+=============== Dec 4, 2018 (MSK) ===============
+13:45:25.632885 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:45:25.633297 version@stat F·[5 1] S·1KiB[1KiB 316B] Sc·[1.25 0.00]
+13:45:25.633343 db@open opening
+13:45:25.633524 journal@recovery F·1
+13:45:25.634077 journal@recovery recovering @137
+13:45:25.634840 memdb@flush created L0@139 N·1 S·349B "eve..oup,v79":"eve..oup,v79"
+13:45:25.635399 version@stat F·[6 1] S·2KiB[1KiB 316B] Sc·[1.50 0.00]
+13:45:25.637153 db@janitor F·9 G·0
+13:45:25.637197 db@open done T·3.827561ms
+13:45:25.637252 table@compaction L0·4 -> L1·1 S·1KiB Q·80
+13:45:25.637318 db@close closing
+13:45:25.638043 db@close done T·723.62µs
+=============== Dec 4, 2018 (MSK) ===============
+13:45:25.638289 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:45:25.639062 version@stat F·[6 1] S·2KiB[1KiB 316B] Sc·[1.50 0.00]
+13:45:25.639137 db@open opening
+13:45:25.639414 journal@recovery F·1
+13:45:25.640726 journal@recovery recovering @140
+13:45:25.641269 memdb@flush created L0@142 N·1 S·357B "eve..oup,v81":"eve..oup,v81"
+13:45:25.642107 version@stat F·[7 1] S·2KiB[2KiB 316B] Sc·[1.75 0.00]
+13:45:25.644229 db@janitor F·10 G·0
+13:45:25.644308 db@open done T·5.131512ms
+13:45:25.644413 table@compaction L0·5 -> L1·1 S·1KiB Q·82
+13:45:25.644482 db@close closing
+13:45:25.645648 db@close done T·1.162231ms
+=============== Dec 4, 2018 (MSK) ===============
+13:45:29.955661 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:45:29.956101 version@stat F·[7 1] S·2KiB[2KiB 316B] Sc·[1.75 0.00]
+13:45:29.956144 db@open opening
+13:45:29.956286 journal@recovery F·1
+13:45:29.956999 journal@recovery recovering @143
+13:45:29.958478 memdb@flush created L0@145 N·1 S·200B "eve..ock,v83":"eve..ock,v83"
+13:45:29.958990 version@stat F·[8 1] S·2KiB[2KiB 316B] Sc·[2.00 0.00]
+13:45:29.960368 db@janitor F·11 G·0
+13:45:29.960425 db@open done T·4.249073ms
+13:45:29.960512 table@compaction L0·3 -> L1·0 S·600B Q·84
+13:45:29.961219 table@build created L1@148 N·1 S·200B "eve..ock,v83":"eve..ock,v83"
+13:45:29.961299 version@stat F·[5 2] S·2KiB[1KiB 516B] Sc·[1.25 0.00]
+13:45:29.961494 table@compaction committed F-2 S-400B Ke·0 D·2 T·908.67µs
+13:45:29.961637 table@remove removed @145
+13:45:29.961871 table@remove removed @133
+13:45:29.962037 table@remove removed @106
+13:45:29.962075 table@compaction L0·5 -> L1·1 S·1KiB Q·84
+13:45:29.962290 db@close closing
+13:45:29.962726 db@write was delayed N·1 T·1.767158ms
+13:45:29.962825 db@close done T·533.901µs
+=============== Dec 4, 2018 (MSK) ===============
+13:45:29.963159 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:45:29.963458 version@stat F·[5 2] S·2KiB[1KiB 516B] Sc·[1.25 0.00]
+13:45:29.963492 db@open opening
+13:45:29.963671 journal@recovery F·1
+13:45:29.966187 journal@recovery recovering @146
+13:45:29.966912 memdb@flush created L0@149 N·1 S·200B "eve..ock,v85":"eve..ock,v85"
+13:45:29.969733 version@stat F·[6 2] S·2KiB[1KiB 516B] Sc·[1.50 0.00]
+13:45:29.971718 db@janitor F·10 G·0
+13:45:29.971785 db@open done T·8.255209ms
+13:45:29.971911 table@compaction L0·5 -> L1·1 S·1KiB Q·86
+13:45:29.972372 db@close closing
+13:45:29.972597 db@close done T·215.948µs
+=============== Dec 4, 2018 (MSK) ===============
+13:47:33.169285 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:47:33.170135 version@stat F·[6 2] S·2KiB[1KiB 516B] Sc·[1.50 0.00]
+13:47:33.170170 db@open opening
+13:47:33.170316 journal@recovery F·1
+13:47:33.171409 journal@recovery recovering @150
+13:47:33.172224 version@stat F·[6 2] S·2KiB[1KiB 516B] Sc·[1.50 0.00]
+13:47:33.173577 db@janitor F·10 G·0
+13:47:33.173650 db@open done T·3.43205ms
+13:47:33.173734 table@compaction L0·5 -> L1·1 S·1KiB Q·86
+13:47:33.173801 db@close closing
+13:47:33.175359 db@close done T·1.556436ms
+=============== Dec 4, 2018 (MSK) ===============
+13:47:33.175582 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:47:33.175831 version@stat F·[6 2] S·2KiB[1KiB 516B] Sc·[1.50 0.00]
+13:47:33.175856 db@open opening
+13:47:33.175972 journal@recovery F·1
+13:47:33.178684 journal@recovery recovering @152
+13:47:33.179412 memdb@flush created L0@154 N·1 S·200B "eve..ock,v87":"eve..ock,v87"
+13:47:33.182316 version@stat F·[7 2] S·2KiB[2KiB 516B] Sc·[1.75 0.00]
+13:47:33.183964 db@janitor F·11 G·0
+13:47:33.184008 db@open done T·8.137405ms
+13:47:33.184082 table@compaction L0·5 -> L1·1 S·1KiB Q·88
+13:47:33.184474 db@close closing
+13:47:33.184774 db@close done T·285.986µs
+=============== Dec 4, 2018 (MSK) ===============
+13:47:37.191545 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:47:37.193433 version@stat F·[7 2] S·2KiB[2KiB 516B] Sc·[1.75 0.00]
+13:47:37.193479 db@open opening
+13:47:37.193605 journal@recovery F·1
+13:47:37.196163 journal@recovery recovering @155
+13:47:37.197591 version@stat F·[7 2] S·2KiB[2KiB 516B] Sc·[1.75 0.00]
+13:47:37.199087 db@janitor F·11 G·0
+13:47:37.199139 db@open done T·5.630758ms
+13:47:37.199179 table@compaction L0·5 -> L1·1 S·1KiB Q·88
+13:47:37.199245 db@close closing
+13:47:37.199963 db@close done T·716.493µs
+=============== Dec 4, 2018 (MSK) ===============
+13:47:37.200252 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:47:37.200494 version@stat F·[7 2] S·2KiB[2KiB 516B] Sc·[1.75 0.00]
+13:47:37.200525 db@open opening
+13:47:37.200618 journal@recovery F·1
+13:47:37.201611 journal@recovery recovering @157
+13:47:37.202097 memdb@flush created L0@159 N·1 S·272B "eve..oup,v89":"eve..oup,v89"
+13:47:37.203052 version@stat F·[8 2] S·2KiB[2KiB 516B] Sc·[2.00 0.00]
+13:47:37.204551 db@janitor F·12 G·0
+13:47:37.204589 db@open done T·4.049731ms
+13:47:37.204652 table@compaction L0·6 -> L1·1 S·2KiB Q·90
+13:47:37.205376 table@build created L1@162 N·1 S·272B "eve..oup,v89":"eve..oup,v89"
+13:47:37.205426 version@stat F·[2 2] S·872B[400B 472B] Sc·[0.50 0.00]
+13:47:37.205575 table@compaction committed F-6 S-1KiB Ke·0 D·6 T·881.718µs
+13:47:37.205696 table@remove removed @159
+13:47:37.205796 table@remove removed @142
+13:47:37.205895 table@remove removed @139
+13:47:37.205988 table@remove removed @136
+13:47:37.206071 table@remove removed @130
+13:47:37.206172 table@remove removed @127
+13:47:37.206337 table@remove removed @126
+13:47:37.206392 db@close closing
+13:47:37.206480 db@write was delayed N·1 T·1.739578ms
+13:47:37.206524 db@close done T·131.331µs
+=============== Dec 4, 2018 (MSK) ===============
+13:47:37.206907 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:47:37.207252 version@stat F·[2 2] S·872B[400B 472B] Sc·[0.50 0.00]
+13:47:37.207291 db@open opening
+13:47:37.207422 journal@recovery F·1
+13:47:37.208040 journal@recovery recovering @160
+13:47:37.208575 memdb@flush created L0@163 N·1 S·285B "eve..oup,v91":"eve..oup,v91"
+13:47:37.209243 version@stat F·[3 2] S·1KiB[685B 472B] Sc·[0.75 0.00]
+13:47:37.210721 db@janitor F·7 G·0
+13:47:37.210755 db@open done T·3.439735ms
+13:47:37.210858 db@close closing
+13:47:37.211010 db@close done T·148.341µs
+=============== Dec 4, 2018 (MSK) ===============
+13:47:37.211302 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:47:37.211647 version@stat F·[3 2] S·1KiB[685B 472B] Sc·[0.75 0.00]
+13:47:37.211691 db@open opening
+13:47:37.211783 journal@recovery F·1
+13:47:37.212506 journal@recovery recovering @164
+13:47:37.213125 memdb@flush created L0@166 N·1 S·298B "eve..oup,v93":"eve..oup,v93"
+13:47:37.213903 version@stat F·[4 2] S·1KiB[983B 472B] Sc·[1.00 0.00]
+13:47:37.215413 db@janitor F·8 G·0
+13:47:37.215478 db@open done T·3.766199ms
+13:47:37.215534 table@compaction L0·2 -> L1·1 S·855B Q·94
+13:47:37.215572 db@close closing
+13:47:37.215611 table@build exiting
+13:47:37.215820 db@close done T·245.591µs
+=============== Dec 4, 2018 (MSK) ===============
+13:47:37.216149 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:47:37.216535 version@stat F·[4 2] S·1KiB[983B 472B] Sc·[1.00 0.00]
+13:47:37.216569 db@open opening
+13:47:37.216734 journal@recovery F·1
+13:47:37.217376 journal@recovery recovering @167
+13:47:37.217926 memdb@flush created L0@169 N·1 S·308B "eve..oup,v95":"eve..oup,v95"
+13:47:37.218706 version@stat F·[5 2] S·1KiB[1KiB 472B] Sc·[1.25 0.00]
+13:47:37.220087 db@janitor F·9 G·0
+13:47:37.220115 db@open done T·3.49403ms
+13:47:37.220153 table@compaction L0·3 -> L1·1 S·1KiB Q·96
+13:47:37.220219 table@build exiting
+13:47:37.220190 db@close closing
+13:47:37.220405 db@close done T·213.473µs
+=============== Dec 4, 2018 (MSK) ===============
+13:47:37.220667 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:47:37.220972 version@stat F·[5 2] S·1KiB[1KiB 472B] Sc·[1.25 0.00]
+13:47:37.221000 db@open opening
+13:47:37.221139 journal@recovery F·1
+13:47:37.221705 journal@recovery recovering @170
+13:47:37.222311 memdb@flush created L0@172 N·1 S·316B "eve..oup,v97":"eve..oup,v97"
+13:47:37.222769 version@stat F·[6 2] S·2KiB[1KiB 472B] Sc·[1.50 0.00]
+13:47:37.223897 db@janitor F·10 G·0
+13:47:37.223935 db@open done T·2.921264ms
+13:47:37.223994 table@compaction L0·4 -> L1·1 S·1KiB Q·98
+13:47:37.224031 db@close closing
+13:47:37.224680 db@close done T·648.723µs
+=============== Dec 4, 2018 (MSK) ===============
+13:47:37.224882 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:47:37.225260 version@stat F·[6 2] S·2KiB[1KiB 472B] Sc·[1.50 0.00]
+13:47:37.225293 db@open opening
+13:47:37.225437 journal@recovery F·1
+13:47:37.225940 journal@recovery recovering @173
+13:47:37.226459 memdb@flush created L0@175 N·1 S·324B "eve..oup,v99":"eve..oup,v99"
+13:47:37.227627 version@stat F·[7 2] S·2KiB[1KiB 472B] Sc·[1.75 0.00]
+13:47:37.228879 db@janitor F·11 G·0
+13:47:37.228906 db@open done T·3.598896ms
+13:47:37.228947 table@compaction L0·5 -> L1·1 S·1KiB Q·100
+13:47:37.228979 table@build exiting
+13:47:37.228968 db@close closing
+13:47:37.229225 db@close done T·256.112µs
+=============== Dec 4, 2018 (MSK) ===============
+13:47:37.229490 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:47:37.229808 version@stat F·[7 2] S·2KiB[1KiB 472B] Sc·[1.75 0.00]
+13:47:37.229845 db@open opening
+13:47:37.229946 journal@recovery F·1
+13:47:37.230526 journal@recovery recovering @176
+13:47:37.231134 memdb@flush created L0@178 N·1 S·332B "eve..oup,v101":"eve..oup,v101"
+13:47:37.231805 version@stat F·[8 2] S·2KiB[2KiB 472B] Sc·[2.00 0.00]
+13:47:37.233250 db@janitor F·12 G·0
+13:47:37.233280 db@open done T·3.419263ms
+13:47:37.233329 table@compaction L0·6 -> L1·1 S·2KiB Q·102
+13:47:37.234221 table@build created L1@181 N·1 S·332B "eve..oup,v101":"eve..oup,v101"
+13:47:37.234278 version@stat F·[2 2] S·932B[400B 532B] Sc·[0.50 0.00]
+13:47:37.234448 table@compaction committed F-6 S-1KiB Ke·0 D·6 T·1.065269ms
+13:47:37.234652 table@remove removed @178
+13:47:37.234810 table@remove removed @175
+13:47:37.234539 db@close closing
+13:47:37.235022 table@remove removed @172
+13:47:37.235201 table@remove removed @169
+13:47:37.235340 table@remove removed @166
+13:47:37.235445 table@remove removed @163
+13:47:37.235524 table@remove removed @162
+13:47:37.235643 db@write was delayed N·1 T·1.174812ms
+13:47:37.235693 db@close done T·1.153149ms
+=============== Dec 4, 2018 (MSK) ===============
+13:47:37.235988 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:47:37.236362 version@stat F·[2 2] S·932B[400B 532B] Sc·[0.50 0.00]
+13:47:37.236419 db@open opening
+13:47:37.236567 journal@recovery F·1
+13:47:37.237206 journal@recovery recovering @179
+13:47:37.237961 memdb@flush created L0@182 N·1 S·341B "eve..oup,v103":"eve..oup,v103"
+13:47:37.238515 version@stat F·[3 2] S·1KiB[741B 532B] Sc·[0.75 0.00]
+13:47:37.239953 db@janitor F·7 G·0
+13:47:37.239987 db@open done T·3.534962ms
+13:47:37.240062 db@close closing
+13:47:37.240226 db@close done T·162.696µs
+=============== Dec 4, 2018 (MSK) ===============
+13:47:37.240513 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:47:37.240784 version@stat F·[3 2] S·1KiB[741B 532B] Sc·[0.75 0.00]
+13:47:37.240822 db@open opening
+13:47:37.240934 journal@recovery F·1
+13:47:37.241448 journal@recovery recovering @183
+13:47:37.242034 memdb@flush created L0@185 N·1 S·200B "eve..ock,v105":"eve..ock,v105"
+13:47:37.242742 version@stat F·[4 2] S·1KiB[941B 532B] Sc·[1.00 0.00]
+13:47:37.244094 db@janitor F·8 G·0
+13:47:37.244133 db@open done T·3.276687ms
+13:47:37.244170 table@compaction L0·3 -> L1·1 S·800B Q·106
+13:47:37.244296 table@build exiting
+13:47:37.244260 db@close closing
+13:47:37.244473 db@close done T·211.313µs
+=============== Dec 4, 2018 (MSK) ===============
+13:47:41.248451 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:47:41.250306 version@stat F·[4 2] S·1KiB[941B 532B] Sc·[1.00 0.00]
+13:47:41.250351 db@open opening
+13:47:41.250495 journal@recovery F·1
+13:47:41.251216 journal@recovery recovering @186
+13:47:41.252380 version@stat F·[4 2] S·1KiB[941B 532B] Sc·[1.00 0.00]
+13:47:41.253659 db@janitor F·8 G·0
+13:47:41.253692 db@open done T·3.293433ms
+13:47:41.253774 table@compaction L0·3 -> L1·1 S·800B Q·106
+13:47:41.253810 db@close closing
+13:47:41.253813 table@build exiting
+13:47:41.254037 db@close done T·225.227µs
+=============== Dec 4, 2018 (MSK) ===============
+13:47:41.254314 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:47:41.254547 version@stat F·[4 2] S·1KiB[941B 532B] Sc·[1.00 0.00]
+13:47:41.254592 db@open opening
+13:47:41.254693 journal@recovery F·1
+13:47:41.255247 journal@recovery recovering @188
+13:47:41.256014 memdb@flush created L0@190 N·1 S·347B "eve..oup,v107":"eve..oup,v107"
+13:47:41.256719 version@stat F·[5 2] S·1KiB[1KiB 532B] Sc·[1.25 0.00]
+13:47:41.258004 db@janitor F·9 G·0
+13:47:41.258036 db@open done T·3.426063ms
+13:47:41.258105 table@compaction L0·2 -> L1·1 S·1020B Q·108
+13:47:41.258158 table@build exiting
+13:47:41.258106 db@close closing
+13:47:41.258336 db@close done T·229µs
+=============== Dec 4, 2018 (MSK) ===============
+13:47:41.258553 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:47:41.258777 version@stat F·[5 2] S·1KiB[1KiB 532B] Sc·[1.25 0.00]
+13:47:41.258809 db@open opening
+13:47:41.258900 journal@recovery F·1
+13:47:41.259372 journal@recovery recovering @191
+13:47:41.259859 memdb@flush created L0@193 N·1 S·352B "eve..oup,v109":"eve..oup,v109"
+13:47:41.260610 version@stat F·[6 2] S·2KiB[1KiB 532B] Sc·[1.50 0.00]
+13:47:41.262204 db@janitor F·10 G·0
+13:47:41.262256 db@open done T·3.432708ms
+13:47:41.262300 table@compaction L0·3 -> L1·1 S·1KiB Q·110
+13:47:41.262366 db@close closing
+13:47:41.263040 db@close done T·672.142µs
+=============== Dec 4, 2018 (MSK) ===============
+13:47:41.263218 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:47:41.263456 version@stat F·[6 2] S·2KiB[1KiB 532B] Sc·[1.50 0.00]
+13:47:41.263487 db@open opening
+13:47:41.263625 journal@recovery F·1
+13:47:41.264238 journal@recovery recovering @194
+13:47:41.265052 memdb@flush created L0@196 N·1 S·360B "eve..oup,v111":"eve..oup,v111"
+13:47:41.265801 version@stat F·[7 2] S·2KiB[1KiB 532B] Sc·[1.75 0.00]
+13:47:41.267041 db@janitor F·11 G·0
+13:47:41.267103 db@open done T·3.596541ms
+13:47:41.267137 table@compaction L0·4 -> L1·1 S·1KiB Q·112
+13:47:41.267215 db@close closing
+13:47:41.267876 db@close done T·646.693µs
+=============== Dec 4, 2018 (MSK) ===============
+13:47:45.272357 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:47:45.274351 version@stat F·[7 2] S·2KiB[1KiB 532B] Sc·[1.75 0.00]
+13:47:45.274392 db@open opening
+13:47:45.274584 journal@recovery F·1
+13:47:45.275258 journal@recovery recovering @197
+13:47:45.275960 memdb@flush created L0@199 N·1 S·200B "eve..ock,v113":"eve..ock,v113"
+13:47:45.276682 version@stat F·[8 2] S·2KiB[2KiB 532B] Sc·[2.00 0.00]
+13:47:45.277923 db@janitor F·12 G·0
+13:47:45.277951 db@open done T·3.536066ms
+13:47:45.278029 table@compaction L0·4 -> L1·1 S·1000B Q·114
+13:47:45.279029 table@build created L1@202 N·1 S·200B "eve..ock,v113":"eve..ock,v113"
+13:47:45.279086 db@close closing
+13:47:45.279087 version@stat F·[4 2] S·1KiB[1KiB 532B] Sc·[1.00 0.00]
+13:47:45.279244 table@commit exiting
+13:47:45.279355 table@remove removed @199
+13:47:45.279532 table@remove removed @185
+13:47:45.279664 table@remove removed @154
+13:47:45.279800 table@remove removed @149
+13:47:45.279954 table@remove removed @148
+13:47:45.280062 db@write was delayed N·1 T·1.033583ms
+13:47:45.280115 db@close done T·1.028858ms
+=============== Dec 4, 2018 (MSK) ===============
+13:48:38.767923 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:48:38.768343 version@stat F·[4 2] S·1KiB[1KiB 532B] Sc·[1.00 0.00]
+13:48:38.768373 db@open opening
+13:48:38.768471 journal@recovery F·1
+13:48:38.769084 journal@recovery recovering @200
+13:48:38.769918 memdb@flush created L0@203 N·1 S·200B "eve..ock,v115":"eve..ock,v115"
+13:48:38.770328 version@stat F·[5 2] S·2KiB[1KiB 532B] Sc·[1.25 0.00]
+13:48:38.771711 db@janitor F·9 G·0
+13:48:38.771758 db@open done T·3.362136ms
+13:48:38.771844 db@close closing
+13:48:38.771864 table@compaction L0·4 -> L1·1 S·1KiB Q·116
+13:48:38.771928 table@build exiting
+13:48:38.772099 db@close done T·253.965µs
+=============== Dec 4, 2018 (MSK) ===============
+13:48:38.772309 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:48:38.772730 version@stat F·[5 2] S·2KiB[1KiB 532B] Sc·[1.25 0.00]
+13:48:38.772782 db@open opening
+13:48:38.772913 journal@recovery F·1
+13:48:38.775498 journal@recovery recovering @204
+13:48:38.776275 memdb@flush created L0@206 N·1 S·200B "eve..ock,v117":"eve..ock,v117"
+13:48:38.779464 version@stat F·[6 2] S·2KiB[1KiB 532B] Sc·[1.50 0.00]
+13:48:38.781331 db@janitor F·10 G·0
+13:48:38.781367 db@open done T·8.552525ms
+13:48:38.781436 table@compaction L0·4 -> L1·1 S·1KiB Q·118
+13:48:38.781827 db@close closing
+13:48:38.781994 db@close done T·165.614µs
+=============== Dec 4, 2018 (MSK) ===============
+13:48:42.789055 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:48:42.789338 version@stat F·[6 2] S·2KiB[1KiB 532B] Sc·[1.50 0.00]
+13:48:42.789374 db@open opening
+13:48:42.789477 journal@recovery F·1
+13:48:42.790293 journal@recovery recovering @207
+13:48:42.793571 version@stat F·[6 2] S·2KiB[1KiB 532B] Sc·[1.50 0.00]
+13:48:42.795434 db@janitor F·10 G·0
+13:48:42.795469 db@open done T·6.078935ms
+13:48:42.795509 table@compaction L0·4 -> L1·1 S·1KiB Q·118
+13:48:42.795542 db@close closing
+13:48:42.795945 db@close done T·401.823µs
+=============== Dec 4, 2018 (MSK) ===============
+13:48:42.796138 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:48:42.796387 version@stat F·[6 2] S·2KiB[1KiB 532B] Sc·[1.50 0.00]
+13:48:42.796415 db@open opening
+13:48:42.796508 journal@recovery F·1
+13:48:42.797174 journal@recovery recovering @209
+13:48:42.797660 memdb@flush created L0@211 N·1 S·272B "eve..oup,v119":"eve..oup,v119"
+13:48:42.798557 version@stat F·[7 2] S·2KiB[2KiB 532B] Sc·[1.75 0.00]
+13:48:42.799760 db@janitor F·11 G·0
+13:48:42.799787 db@open done T·3.359063ms
+13:48:42.799842 table@compaction L0·5 -> L1·1 S·1KiB Q·120
+13:48:42.799894 table@build exiting
+13:48:42.799850 db@close closing
+13:48:42.800097 db@close done T·244.26µs
+=============== Dec 4, 2018 (MSK) ===============
+13:48:42.800393 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:48:42.800648 version@stat F·[7 2] S·2KiB[2KiB 532B] Sc·[1.75 0.00]
+13:48:42.800680 db@open opening
+13:48:42.800812 journal@recovery F·1
+13:48:42.801277 journal@recovery recovering @212
+13:48:42.801728 memdb@flush created L0@214 N·1 S·285B "eve..oup,v121":"eve..oup,v121"
+13:48:42.802461 version@stat F·[8 2] S·2KiB[2KiB 532B] Sc·[2.00 0.00]
+13:48:42.804007 db@janitor F·12 G·0
+13:48:42.804047 db@open done T·3.350408ms
+13:48:42.804095 table@compaction L0·6 -> L1·1 S·2KiB Q·122
+13:48:42.804986 table@build created L1@217 N·1 S·285B "eve..oup,v121":"eve..oup,v121"
+13:48:42.805052 version@stat F·[2 2] S·885B[400B 485B] Sc·[0.50 0.00]
+13:48:42.805413 db@close closing
+13:48:42.805414 table@compaction committed F-6 S-1KiB Ke·0 D·6 T·1.268268ms
+13:48:42.805642 table@remove removed @214
+13:48:42.805743 table@remove removed @211
+13:48:42.805843 table@remove removed @196
+13:48:42.805944 table@remove removed @193
+13:48:42.806085 table@remove removed @190
+13:48:42.806242 table@remove removed @182
+13:48:42.806402 table@remove removed @181
+13:48:42.806491 db@write was delayed N·1 T·1.258071ms
+13:48:42.806534 db@close done T·1.120758ms
+=============== Dec 4, 2018 (MSK) ===============
+13:48:42.806726 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:48:42.806929 version@stat F·[2 2] S·885B[400B 485B] Sc·[0.50 0.00]
+13:48:42.806953 db@open opening
+13:48:42.807030 journal@recovery F·1
+13:48:42.807595 journal@recovery recovering @215
+13:48:42.808128 memdb@flush created L0@218 N·1 S·298B "eve..oup,v123":"eve..oup,v123"
+13:48:42.808750 version@stat F·[3 2] S·1KiB[698B 485B] Sc·[0.75 0.00]
+13:48:42.810129 db@janitor F·7 G·0
+13:48:42.810165 db@open done T·3.197654ms
+13:48:42.810263 db@close closing
+13:48:42.810535 db@close done T·269.156µs
+=============== Dec 4, 2018 (MSK) ===============
+13:48:42.810784 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:48:42.811016 version@stat F·[3 2] S·1KiB[698B 485B] Sc·[0.75 0.00]
+13:48:42.811045 db@open opening
+13:48:42.811144 journal@recovery F·1
+13:48:42.811468 journal@recovery recovering @219
+13:48:42.811897 memdb@flush created L0@221 N·1 S·308B "eve..oup,v125":"eve..oup,v125"
+13:48:42.814906 version@stat F·[4 2] S·1KiB[1006B 485B] Sc·[1.00 0.00]
+13:48:42.816179 db@janitor F·8 G·0
+13:48:42.816205 db@open done T·5.141156ms
+13:48:42.816286 db@close closing
+13:48:42.816309 table@compaction L0·2 -> L1·1 S·891B Q·127
+13:48:42.816349 table@build exiting
+13:48:42.816459 db@close done T·171.965µs
+=============== Dec 4, 2018 (MSK) ===============
+13:48:42.816628 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:48:42.816831 version@stat F·[4 2] S·1KiB[1006B 485B] Sc·[1.00 0.00]
+13:48:42.816855 db@open opening
+13:48:42.816934 journal@recovery F·1
+13:48:42.817553 journal@recovery recovering @222
+13:48:42.818332 memdb@flush created L0@224 N·1 S·316B "eve..oup,v127":"eve..oup,v127"
+13:48:42.818997 version@stat F·[5 2] S·1KiB[1KiB 485B] Sc·[1.25 0.00]
+13:48:42.820254 db@janitor F·9 G·0
+13:48:42.820287 db@open done T·3.420065ms
+13:48:42.820348 table@compaction L0·3 -> L1·1 S·1KiB Q·128
+13:48:42.820380 db@close closing
+13:48:42.820818 db@close done T·436.247µs
+=============== Dec 4, 2018 (MSK) ===============
+13:48:42.821039 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:48:42.821355 version@stat F·[5 2] S·1KiB[1KiB 485B] Sc·[1.25 0.00]
+13:48:42.821425 db@open opening
+13:48:42.821580 journal@recovery F·1
+13:48:42.822426 journal@recovery recovering @225
+13:48:42.823168 memdb@flush created L0@227 N·1 S·324B "eve..oup,v129":"eve..oup,v129"
+13:48:42.823843 version@stat F·[6 2] S·2KiB[1KiB 485B] Sc·[1.50 0.00]
+13:48:42.825183 db@janitor F·10 G·0
+13:48:42.825215 db@open done T·3.769707ms
+13:48:42.825261 table@compaction L0·4 -> L1·1 S·1KiB Q·130
+13:48:42.825295 db@close closing
+13:48:42.825723 db@close done T·427.048µs
+=============== Dec 4, 2018 (MSK) ===============
+13:48:42.825905 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:48:42.826238 version@stat F·[6 2] S·2KiB[1KiB 485B] Sc·[1.50 0.00]
+13:48:42.826267 db@open opening
+13:48:42.826423 journal@recovery F·1
+13:48:42.826769 journal@recovery recovering @228
+13:48:42.827508 memdb@flush created L0@230 N·1 S·332B "eve..oup,v131":"eve..oup,v131"
+13:48:42.828135 version@stat F·[7 2] S·2KiB[1KiB 485B] Sc·[1.75 0.00]
+13:48:42.829555 db@janitor F·11 G·0
+13:48:42.829611 db@open done T·3.323848ms
+13:48:42.829658 table@compaction L0·5 -> L1·1 S·1KiB Q·132
+13:48:42.829708 db@close closing
+13:48:42.830222 db@close done T·513.481µs
+=============== Dec 4, 2018 (MSK) ===============
+13:48:42.830465 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:48:42.830674 version@stat F·[7 2] S·2KiB[1KiB 485B] Sc·[1.75 0.00]
+13:48:42.830710 db@open opening
+13:48:42.830814 journal@recovery F·1
+13:48:42.831382 journal@recovery recovering @231
+13:48:42.831953 memdb@flush created L0@233 N·1 S·341B "eve..oup,v133":"eve..oup,v133"
+13:48:42.835274 version@stat F·[8 2] S·2KiB[2KiB 485B] Sc·[2.00 0.00]
+13:48:42.836867 db@janitor F·12 G·0
+13:48:42.836925 db@open done T·6.189656ms
+13:48:42.837021 table@compaction L0·6 -> L1·1 S·2KiB Q·134
+13:48:42.837900 table@build created L1@236 N·1 S·341B "eve..oup,v133":"eve..oup,v133"
+13:48:42.837955 version@stat F·[2 2] S·941B[400B 541B] Sc·[0.50 0.00]
+13:48:42.838080 db@close closing
+13:48:42.838139 table@compaction committed F-6 S-1KiB Ke·0 D·6 T·1.084963ms
+13:48:42.838292 table@remove removed @233
+13:48:42.838395 table@remove removed @230
+13:48:42.838490 table@remove removed @227
+13:48:42.838575 table@remove removed @224
+13:48:42.838654 table@remove removed @221
+13:48:42.838735 table@remove removed @218
+13:48:42.838837 table@remove removed @217
+13:48:42.838943 db@write was delayed N·1 T·1.033107ms
+13:48:42.838980 db@close done T·900.118µs
+=============== Dec 4, 2018 (MSK) ===============
+13:48:42.839293 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:48:42.839548 version@stat F·[2 2] S·941B[400B 541B] Sc·[0.50 0.00]
+13:48:42.839581 db@open opening
+13:48:42.839685 journal@recovery F·1
+13:48:42.840600 journal@recovery recovering @234
+13:48:42.841154 memdb@flush created L0@237 N·1 S·200B "eve..ock,v135":"eve..ock,v135"
+13:48:42.841774 version@stat F·[3 2] S·1KiB[600B 541B] Sc·[0.75 0.00]
+13:48:42.842978 db@janitor F·7 G·0
+13:48:42.843015 db@open done T·3.418208ms
+13:48:42.843146 db@close closing
+13:48:42.843286 db@close done T·135.984µs
+=============== Dec 4, 2018 (MSK) ===============
+13:48:46.848915 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:48:46.850650 version@stat F·[3 2] S·1KiB[600B 541B] Sc·[0.75 0.00]
+13:48:46.850679 db@open opening
+13:48:46.850766 journal@recovery F·1
+13:48:46.851661 journal@recovery recovering @238
+13:48:46.852779 version@stat F·[3 2] S·1KiB[600B 541B] Sc·[0.75 0.00]
+13:48:46.854064 db@janitor F·7 G·0
+13:48:46.854102 db@open done T·3.407832ms
+13:48:46.854182 db@close closing
+13:48:46.854364 db@close done T·180.217µs
+=============== Dec 4, 2018 (MSK) ===============
+13:48:46.854584 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:48:46.854795 version@stat F·[3 2] S·1KiB[600B 541B] Sc·[0.75 0.00]
+13:48:46.854826 db@open opening
+13:48:46.854918 journal@recovery F·1
+13:48:46.855457 journal@recovery recovering @240
+13:48:46.855866 memdb@flush created L0@242 N·1 S·347B "eve..oup,v137":"eve..oup,v137"
+13:48:46.856874 version@stat F·[4 2] S·1KiB[947B 541B] Sc·[1.00 0.00]
+13:48:46.858541 db@janitor F·8 G·0
+13:48:46.858577 db@open done T·3.734723ms
+13:48:46.858621 table@compaction L0·1 -> L1·1 S·688B Q·138
+13:48:46.858665 db@close closing
+13:48:46.859147 db@close done T·480.682µs
+=============== Dec 4, 2018 (MSK) ===============
+13:48:46.859347 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:48:46.859634 version@stat F·[4 2] S·1KiB[947B 541B] Sc·[1.00 0.00]
+13:48:46.859673 db@open opening
+13:48:46.859772 journal@recovery F·1
+13:48:46.860370 journal@recovery recovering @243
+13:48:46.860989 memdb@flush created L0@245 N·1 S·352B "eve..oup,v139":"eve..oup,v139"
+13:48:46.861720 version@stat F·[5 2] S·1KiB[1KiB 541B] Sc·[1.25 0.00]
+13:48:46.863296 db@janitor F·9 G·0
+13:48:46.863334 db@open done T·3.643714ms
+13:48:46.863393 table@compaction L0·2 -> L1·1 S·1KiB Q·140
+13:48:46.863452 table@build exiting
+13:48:46.863439 db@close closing
+13:48:46.863669 db@close done T·226.249µs
+=============== Dec 4, 2018 (MSK) ===============
+13:48:46.863957 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:48:46.864313 version@stat F·[5 2] S·1KiB[1KiB 541B] Sc·[1.25 0.00]
+13:48:46.864364 db@open opening
+13:48:46.864478 journal@recovery F·1
+13:48:46.865160 journal@recovery recovering @246
+13:48:46.865967 memdb@flush created L0@248 N·1 S·360B "eve..oup,v141":"eve..oup,v141"
+13:48:46.866802 version@stat F·[6 2] S·2KiB[1KiB 541B] Sc·[1.50 0.00]
+13:48:46.868554 db@janitor F·10 G·0
+13:48:46.868607 db@open done T·4.214195ms
+13:48:46.868694 table@compaction L0·3 -> L1·1 S·1KiB Q·142
+13:48:46.868720 table@build exiting
+13:48:46.868711 db@close closing
+13:48:46.868899 db@close done T·187.011µs
+=============== Dec 4, 2018 (MSK) ===============
+13:48:46.869196 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:48:46.869628 version@stat F·[6 2] S·2KiB[1KiB 541B] Sc·[1.50 0.00]
+13:48:46.869661 db@open opening
+13:48:46.869839 journal@recovery F·1
+13:48:46.870412 journal@recovery recovering @249
+13:48:46.871000 memdb@flush created L0@251 N·1 S·368B "eve..oup,v143":"eve..oup,v143"
+13:48:46.871626 version@stat F·[7 2] S·2KiB[1KiB 541B] Sc·[1.75 0.00]
+13:48:46.873326 db@janitor F·11 G·0
+13:48:46.873376 db@open done T·3.69657ms
+13:48:46.873428 table@compaction L0·4 -> L1·1 S·1KiB Q·144
+13:48:46.873469 db@close closing
+13:48:46.873899 db@close done T·428.468µs
+=============== Dec 4, 2018 (MSK) ===============
+13:48:50.882891 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:48:50.885139 version@stat F·[7 2] S·2KiB[1KiB 541B] Sc·[1.75 0.00]
+13:48:50.885203 db@open opening
+13:48:50.885507 journal@recovery F·1
+13:48:50.886329 journal@recovery recovering @252
+13:48:50.887242 memdb@flush created L0@254 N·1 S·200B "eve..ock,v145":"eve..ock,v145"
+13:48:50.888160 version@stat F·[8 2] S·2KiB[2KiB 541B] Sc·[2.00 0.00]
+13:48:50.890998 db@janitor F·12 G·0
+13:48:50.891094 db@open done T·5.858747ms
+13:48:50.891185 table@compaction L0·4 -> L1·1 S·1000B Q·146
+13:48:50.891998 table@build created L1@257 N·1 S·200B "eve..ock,v145":"eve..ock,v145"
+13:48:50.892097 version@stat F·[4 2] S·1KiB[1KiB 541B] Sc·[1.00 0.00]
+13:48:50.892649 table@compaction committed F-4 S-800B Ke·0 D·4 T·1.403303ms
+13:48:50.892833 table@remove removed @254
+13:48:50.893004 table@remove removed @237
+13:48:50.893240 table@remove removed @206
+13:48:50.893485 table@remove removed @203
+13:48:50.893729 table@remove removed @202
+13:48:50.893781 table@compaction L0·4 -> L1·1 S·1KiB Q·146
+13:48:50.894283 db@close closing
+13:48:50.894776 table@build created L1@258 N·1 S·368B "eve..oup,v143":"eve..oup,v143"
+13:48:50.894811 table@build exiting
+13:48:50.894833 table@build revert @258
+13:48:50.895057 db@write was delayed N·1 T·2.952314ms
+13:48:50.895147 db@close done T·863.304µs
+=============== Dec 4, 2018 (MSK) ===============
+13:49:39.316028 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:49:39.322460 version@stat F·[4 2] S·1KiB[1KiB 541B] Sc·[1.00 0.00]
+13:49:39.322730 db@open opening
+13:49:39.322851 journal@recovery F·1
+13:49:39.323597 journal@recovery recovering @255
+13:49:39.324401 memdb@flush created L0@258 N·1 S·200B "eve..ock,v147":"eve..ock,v147"
+13:49:39.324879 version@stat F·[5 2] S·2KiB[1KiB 541B] Sc·[1.25 0.00]
+13:49:39.326330 db@janitor F·9 G·0
+13:49:39.326383 db@open done T·3.627258ms
+13:49:39.326504 db@close closing
+13:49:39.326550 table@compaction L0·4 -> L1·1 S·1KiB Q·149
+13:49:39.326589 table@build exiting
+13:49:39.326708 db@close done T·202.615µs
+=============== Dec 4, 2018 (MSK) ===============
+13:49:39.326985 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:49:39.327326 version@stat F·[5 2] S·2KiB[1KiB 541B] Sc·[1.25 0.00]
+13:49:39.327364 db@open opening
+13:49:39.327497 journal@recovery F·1
+13:49:39.330421 journal@recovery recovering @259
+13:49:39.331086 memdb@flush created L0@261 N·1 S·200B "eve..ock,v149":"eve..ock,v149"
+13:49:39.334135 version@stat F·[6 2] S·2KiB[1KiB 541B] Sc·[1.50 0.00]
+13:49:39.335751 db@janitor F·10 G·0
+13:49:39.335799 db@open done T·8.41318ms
+13:49:39.335913 table@compaction L0·4 -> L1·1 S·1KiB Q·150
+13:49:39.336215 db@close closing
+13:49:39.336554 table@build created L1@264 N·1 S·368B "eve..oup,v143":"eve..oup,v143"
+13:49:39.336582 table@build exiting
+13:49:39.336600 table@build revert @264
+13:49:39.336793 db@close done T·576.85µs
+=============== Dec 4, 2018 (MSK) ===============
+13:49:43.344564 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:49:43.346591 version@stat F·[6 2] S·2KiB[1KiB 541B] Sc·[1.50 0.00]
+13:49:43.346625 db@open opening
+13:49:43.346730 journal@recovery F·1
+13:49:43.349427 journal@recovery recovering @262
+13:49:43.352383 version@stat F·[6 2] S·2KiB[1KiB 541B] Sc·[1.50 0.00]
+13:49:43.353900 db@janitor F·10 G·0
+13:49:43.353934 db@open done T·7.286885ms
+13:49:43.353999 table@compaction L0·4 -> L1·1 S·1KiB Q·150
+13:49:43.354063 db@close closing
+13:49:43.354550 db@close done T·486.606µs
+=============== Dec 4, 2018 (MSK) ===============
+13:49:43.354764 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:49:43.355051 version@stat F·[6 2] S·2KiB[1KiB 541B] Sc·[1.50 0.00]
+13:49:43.355080 db@open opening
+13:49:43.355169 journal@recovery F·1
+13:49:43.357817 journal@recovery recovering @264
+13:49:43.358631 memdb@flush created L0@266 N·1 S·272B "eve..oup,v151":"eve..oup,v151"
+13:49:43.359483 version@stat F·[7 2] S·2KiB[2KiB 541B] Sc·[1.75 0.00]
+13:49:43.361155 db@janitor F·11 G·0
+13:49:43.361206 db@open done T·6.112138ms
+13:49:43.361261 table@compaction L0·5 -> L1·1 S·1KiB Q·152
+13:49:43.361347 db@close closing
+13:49:43.361838 db@close done T·489.581µs
+=============== Dec 4, 2018 (MSK) ===============
+13:49:43.362078 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:49:43.362332 version@stat F·[7 2] S·2KiB[2KiB 541B] Sc·[1.75 0.00]
+13:49:43.362371 db@open opening
+13:49:43.362501 journal@recovery F·1
+13:49:43.363713 journal@recovery recovering @267
+13:49:43.364263 memdb@flush created L0@269 N·1 S·285B "eve..oup,v153":"eve..oup,v153"
+13:49:43.364973 version@stat F·[8 2] S·2KiB[2KiB 541B] Sc·[2.00 0.00]
+13:49:43.366574 db@janitor F·12 G·0
+13:49:43.366610 db@open done T·4.222341ms
+13:49:43.366652 table@compaction L0·6 -> L1·1 S·2KiB Q·154
+13:49:43.367503 table@build created L1@272 N·1 S·285B "eve..oup,v153":"eve..oup,v153"
+13:49:43.367550 version@stat F·[2 2] S·885B[400B 485B] Sc·[0.50 0.00]
+13:49:43.367732 table@compaction committed F-6 S-1KiB Ke·0 D·6 T·1.024068ms
+13:49:43.367873 table@remove removed @269
+13:49:43.368028 table@remove removed @266
+13:49:43.368213 table@remove removed @251
+13:49:43.368312 table@remove removed @248
+13:49:43.368476 table@remove removed @245
+13:49:43.368636 table@remove removed @242
+13:49:43.368824 table@remove removed @236
+13:49:43.368901 db@close closing
+13:49:43.368974 db@write was delayed N·1 T·2.216381ms
+13:49:43.369020 db@close done T·118.134µs
+=============== Dec 4, 2018 (MSK) ===============
+13:49:43.369233 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:49:43.369531 version@stat F·[2 2] S·885B[400B 485B] Sc·[0.50 0.00]
+13:49:43.369575 db@open opening
+13:49:43.369762 journal@recovery F·1
+13:49:43.370319 journal@recovery recovering @270
+13:49:43.370979 memdb@flush created L0@273 N·1 S·298B "eve..oup,v155":"eve..oup,v155"
+13:49:43.371479 version@stat F·[3 2] S·1KiB[698B 485B] Sc·[0.75 0.00]
+13:49:43.372648 db@janitor F·7 G·0
+13:49:43.372675 db@open done T·3.059611ms
+13:49:43.372746 db@close closing
+13:49:43.372910 db@close done T·162.392µs
+=============== Dec 4, 2018 (MSK) ===============
+13:49:43.373234 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:49:43.373471 version@stat F·[3 2] S·1KiB[698B 485B] Sc·[0.75 0.00]
+13:49:43.373503 db@open opening
+13:49:43.373665 journal@recovery F·1
+13:49:43.374365 journal@recovery recovering @274
+13:49:43.374963 memdb@flush created L0@276 N·1 S·308B "eve..oup,v157":"eve..oup,v157"
+13:49:43.375615 version@stat F·[4 2] S·1KiB[1006B 485B] Sc·[1.00 0.00]
+13:49:43.376958 db@janitor F·8 G·0
+13:49:43.376997 db@open done T·3.474043ms
+13:49:43.377093 table@compaction L0·2 -> L1·1 S·891B Q·158
+13:49:43.377152 db@close closing
+13:49:43.377587 db@close done T·433.746µs
+=============== Dec 4, 2018 (MSK) ===============
+13:49:43.377774 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:49:43.378011 version@stat F·[4 2] S·1KiB[1006B 485B] Sc·[1.00 0.00]
+13:49:43.378048 db@open opening
+13:49:43.378149 journal@recovery F·1
+13:49:43.378634 journal@recovery recovering @277
+13:49:43.379499 memdb@flush created L0@279 N·1 S·316B "eve..oup,v159":"eve..oup,v159"
+13:49:43.380205 version@stat F·[5 2] S·1KiB[1KiB 485B] Sc·[1.25 0.00]
+13:49:43.381914 db@janitor F·9 G·0
+13:49:43.381944 db@open done T·3.874732ms
+13:49:43.382036 table@compaction L0·3 -> L1·1 S·1KiB Q·160
+13:49:43.382088 db@close closing
+13:49:43.382586 db@close done T·496.788µs
+=============== Dec 4, 2018 (MSK) ===============
+13:49:43.382809 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:49:43.383074 version@stat F·[5 2] S·1KiB[1KiB 485B] Sc·[1.25 0.00]
+13:49:43.383110 db@open opening
+13:49:43.383214 journal@recovery F·1
+13:49:43.383766 journal@recovery recovering @280
+13:49:43.384386 memdb@flush created L0@282 N·1 S·324B "eve..oup,v161":"eve..oup,v161"
+13:49:43.384843 version@stat F·[6 2] S·2KiB[1KiB 485B] Sc·[1.50 0.00]
+13:49:43.386082 db@janitor F·10 G·0
+13:49:43.386112 db@open done T·2.982299ms
+13:49:43.386169 table@compaction L0·4 -> L1·1 S·1KiB Q·162
+13:49:43.386197 table@build exiting
+13:49:43.386172 db@close closing
+13:49:43.386427 db@close done T·252.892µs
+=============== Dec 4, 2018 (MSK) ===============
+13:49:43.386686 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:49:43.386911 version@stat F·[6 2] S·2KiB[1KiB 485B] Sc·[1.50 0.00]
+13:49:43.386937 db@open opening
+13:49:43.387230 journal@recovery F·1
+13:49:43.387969 journal@recovery recovering @283
+13:49:43.388430 memdb@flush created L0@285 N·1 S·332B "eve..oup,v163":"eve..oup,v163"
+13:49:43.389270 version@stat F·[7 2] S·2KiB[1KiB 485B] Sc·[1.75 0.00]
+13:49:43.390672 db@janitor F·11 G·0
+13:49:43.390702 db@open done T·3.752791ms
+13:49:43.390743 table@compaction L0·5 -> L1·1 S·1KiB Q·164
+13:49:43.390777 table@build exiting
+13:49:43.390760 db@close closing
+13:49:43.390927 db@close done T·165.312µs
+=============== Dec 4, 2018 (MSK) ===============
+13:49:43.391205 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:49:43.391497 version@stat F·[7 2] S·2KiB[1KiB 485B] Sc·[1.75 0.00]
+13:49:43.391529 db@open opening
+13:49:43.391619 journal@recovery F·1
+13:49:43.392192 journal@recovery recovering @286
+13:49:43.392774 memdb@flush created L0@288 N·1 S·341B "eve..oup,v165":"eve..oup,v165"
+13:49:43.393445 version@stat F·[8 2] S·2KiB[2KiB 485B] Sc·[2.00 0.00]
+13:49:43.394735 db@janitor F·12 G·0
+13:49:43.394767 db@open done T·3.224271ms
+13:49:43.394854 table@compaction L0·6 -> L1·1 S·2KiB Q·166
+13:49:43.395673 table@build created L1@291 N·1 S·341B "eve..oup,v165":"eve..oup,v165"
+13:49:43.395714 version@stat F·[2 2] S·941B[400B 541B] Sc·[0.50 0.00]
+13:49:43.395858 table@compaction committed F-6 S-1KiB Ke·0 D·6 T·969.161µs
+13:49:43.395971 table@remove removed @288
+13:49:43.396129 table@remove removed @285
+13:49:43.396240 table@remove removed @282
+13:49:43.396388 table@remove removed @279
+13:49:43.396493 table@remove removed @276
+13:49:43.396578 table@remove removed @273
+13:49:43.396666 table@remove removed @272
+13:49:43.396724 db@close closing
+13:49:43.396822 db@write was delayed N·1 T·1.869797ms
+13:49:43.396905 db@close done T·169.986µs
+=============== Dec 4, 2018 (MSK) ===============
+13:49:43.397175 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:49:43.397460 version@stat F·[2 2] S·941B[400B 541B] Sc·[0.50 0.00]
+13:49:43.397492 db@open opening
+13:49:43.397590 journal@recovery F·1
+13:49:43.398146 journal@recovery recovering @289
+13:49:43.398611 memdb@flush created L0@292 N·1 S·200B "eve..ock,v167":"eve..ock,v167"
+13:49:43.399036 version@stat F·[3 2] S·1KiB[600B 541B] Sc·[0.75 0.00]
+13:49:43.400184 db@janitor F·7 G·0
+13:49:43.400230 db@open done T·2.71671ms
+13:49:43.400337 db@close closing
+13:49:43.400440 db@close done T·101.745µs
+=============== Dec 4, 2018 (MSK) ===============
+13:49:47.408775 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:49:47.410615 version@stat F·[3 2] S·1KiB[600B 541B] Sc·[0.75 0.00]
+13:49:47.410642 db@open opening
+13:49:47.410730 journal@recovery F·1
+13:49:47.411482 journal@recovery recovering @293
+13:49:47.412617 version@stat F·[3 2] S·1KiB[600B 541B] Sc·[0.75 0.00]
+13:49:47.413801 db@janitor F·7 G·0
+13:49:47.413835 db@open done T·3.178447ms
+13:49:47.413905 db@close closing
+13:49:47.414058 db@close done T·150.497µs
+=============== Dec 4, 2018 (MSK) ===============
+13:49:47.414277 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:49:47.414583 version@stat F·[3 2] S·1KiB[600B 541B] Sc·[0.75 0.00]
+13:49:47.414616 db@open opening
+13:49:47.414715 journal@recovery F·1
+13:49:47.415527 journal@recovery recovering @295
+13:49:47.416157 memdb@flush created L0@297 N·1 S·347B "eve..oup,v169":"eve..oup,v169"
+13:49:47.416829 version@stat F·[4 2] S·1KiB[947B 541B] Sc·[1.00 0.00]
+13:49:47.418230 db@janitor F·8 G·0
+13:49:47.418284 db@open done T·3.652498ms
+13:49:47.418328 table@compaction L0·1 -> L1·1 S·688B Q·170
+13:49:47.418389 db@close closing
+13:49:47.418729 db@close done T·338.482µs
+=============== Dec 4, 2018 (MSK) ===============
+13:49:47.418945 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:49:47.419184 version@stat F·[4 2] S·1KiB[947B 541B] Sc·[1.00 0.00]
+13:49:47.419233 db@open opening
+13:49:47.419369 journal@recovery F·1
+13:49:47.419966 journal@recovery recovering @298
+13:49:47.420536 memdb@flush created L0@300 N·1 S·352B "eve..oup,v171":"eve..oup,v171"
+13:49:47.421426 version@stat F·[5 2] S·1KiB[1KiB 541B] Sc·[1.25 0.00]
+13:49:47.422747 db@janitor F·9 G·0
+13:49:47.422778 db@open done T·3.522834ms
+13:49:47.422895 table@compaction L0·2 -> L1·1 S·1KiB Q·172
+13:49:47.422933 table@build exiting
+13:49:47.422897 db@close closing
+13:49:47.423240 db@close done T·341.842µs
+=============== Dec 4, 2018 (MSK) ===============
+13:49:47.423539 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:49:47.423834 version@stat F·[5 2] S·1KiB[1KiB 541B] Sc·[1.25 0.00]
+13:49:47.423881 db@open opening
+13:49:47.424023 journal@recovery F·1
+13:49:47.424566 journal@recovery recovering @301
+13:49:47.424972 memdb@flush created L0@303 N·1 S·360B "eve..oup,v173":"eve..oup,v173"
+13:49:47.425529 version@stat F·[6 2] S·2KiB[1KiB 541B] Sc·[1.50 0.00]
+13:49:47.426871 db@janitor F·10 G·0
+13:49:47.426904 db@open done T·3.001512ms
+13:49:47.426943 table@compaction L0·3 -> L1·1 S·1KiB Q·174
+13:49:47.427005 table@build exiting
+13:49:47.426970 db@close closing
+13:49:47.427173 db@close done T·200.988µs
+=============== Dec 4, 2018 (MSK) ===============
+13:49:47.427396 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:49:47.427744 version@stat F·[6 2] S·2KiB[1KiB 541B] Sc·[1.50 0.00]
+13:49:47.427778 db@open opening
+13:49:47.427878 journal@recovery F·1
+13:49:47.428955 journal@recovery recovering @304
+13:49:47.429381 memdb@flush created L0@306 N·1 S·368B "eve..oup,v175":"eve..oup,v175"
+13:49:47.429988 version@stat F·[7 2] S·2KiB[1KiB 541B] Sc·[1.75 0.00]
+13:49:47.431411 db@janitor F·11 G·0
+13:49:47.431445 db@open done T·3.647718ms
+13:49:47.431507 table@compaction L0·4 -> L1·1 S·1KiB Q·176
+13:49:47.431561 table@build exiting
+13:49:47.431522 db@close closing
+13:49:47.431779 db@close done T·253.304µs
+=============== Dec 4, 2018 (MSK) ===============
+13:49:47.432117 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:49:47.432437 version@stat F·[7 2] S·2KiB[1KiB 541B] Sc·[1.75 0.00]
+13:49:47.432481 db@open opening
+13:49:47.432602 journal@recovery F·1
+13:49:47.433114 journal@recovery recovering @307
+13:49:47.433718 memdb@flush created L0@309 N·1 S·376B "eve..oup,v177":"eve..oup,v177"
+13:49:47.434359 version@stat F·[8 2] S·2KiB[2KiB 541B] Sc·[2.00 0.00]
+13:49:47.435855 db@janitor F·12 G·0
+13:49:47.435889 db@open done T·3.385511ms
+13:49:47.435969 table@compaction L0·5 -> L1·1 S·2KiB Q·178
+13:49:47.436695 table@build created L1@312 N·1 S·376B "eve..oup,v177":"eve..oup,v177"
+13:49:47.436772 version@stat F·[3 2] S·1KiB[600B 576B] Sc·[0.75 0.00]
+13:49:47.436903 table@compaction committed F-5 S-1KiB Ke·0 D·5 T·897.574µs
+13:49:47.437012 table@remove removed @309
+13:49:47.437121 table@remove removed @306
+13:49:47.437227 table@remove removed @303
+13:49:47.437388 table@remove removed @300
+13:49:47.437582 table@remove removed @297
+13:49:47.437757 table@remove removed @291
+13:49:47.437848 db@close closing
+13:49:47.437941 db@write was delayed N·1 T·1.864753ms
+13:49:47.437992 db@close done T·143.429µs
+=============== Dec 4, 2018 (MSK) ===============
+13:49:47.438195 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:49:47.438414 version@stat F·[3 2] S·1KiB[600B 576B] Sc·[0.75 0.00]
+13:49:47.438440 db@open opening
+13:49:47.438538 journal@recovery F·1
+13:49:47.439040 journal@recovery recovering @310
+13:49:47.439630 memdb@flush created L0@313 N·1 S·383B "eve..oup,v179":"eve..oup,v179"
+13:49:47.440066 version@stat F·[4 2] S·1KiB[983B 576B] Sc·[1.00 0.00]
+13:49:47.441540 db@janitor F·8 G·0
+13:49:47.441577 db@open done T·3.122665ms
+13:49:47.441661 table@compaction L0·1 -> L1·1 S·759B Q·180
+13:49:47.441726 table@build exiting
+13:49:47.441667 db@close closing
+13:49:47.442031 db@close done T·359.475µs
+=============== Dec 4, 2018 (MSK) ===============
+13:49:47.442348 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:49:47.442722 version@stat F·[4 2] S·1KiB[983B 576B] Sc·[1.00 0.00]
+13:49:47.442755 db@open opening
+13:49:47.442861 journal@recovery F·1
+13:49:47.443229 journal@recovery recovering @314
+13:49:47.468930 memdb@flush created L0@316 N·1 S·391B "eve..oup,v181":"eve..oup,v181"
+13:49:47.469783 version@stat F·[5 2] S·1KiB[1KiB 576B] Sc·[1.25 0.00]
+13:49:47.471351 db@janitor F·9 G·0
+13:49:47.471392 db@open done T·28.619695ms
+13:49:47.471461 table@compaction L0·2 -> L1·1 S·1KiB Q·182
+13:49:47.471504 db@close closing
+13:49:47.472013 db@close done T·507.511µs
+=============== Dec 4, 2018 (MSK) ===============
+13:49:47.472276 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:49:47.472561 version@stat F·[5 2] S·1KiB[1KiB 576B] Sc·[1.25 0.00]
+13:49:47.472588 db@open opening
+13:49:47.472689 journal@recovery F·1
+13:49:47.473315 journal@recovery recovering @317
+13:49:47.473963 memdb@flush created L0@319 N·1 S·399B "eve..oup,v183":"eve..oup,v183"
+13:49:47.474714 version@stat F·[6 2] S·2KiB[1KiB 576B] Sc·[1.50 0.00]
+13:49:47.476460 db@janitor F·10 G·0
+13:49:47.476520 db@open done T·3.918901ms
+13:49:47.476550 table@compaction L0·3 -> L1·1 S·1KiB Q·184
+13:49:47.476593 db@close closing
+13:49:47.477009 db@close done T·413.566µs
+=============== Dec 4, 2018 (MSK) ===============
+13:50:27.508353 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:50:27.508769 version@stat F·[6 2] S·2KiB[1KiB 576B] Sc·[1.50 0.00]
+13:50:27.508803 db@open opening
+13:50:27.508987 journal@recovery F·1
+13:50:27.509676 journal@recovery recovering @320
+13:50:27.510564 memdb@flush created L0@322 N·1 S·200B "eve..ock,v185":"eve..ock,v185"
+13:50:27.511159 version@stat F·[7 2] S·2KiB[1KiB 576B] Sc·[1.75 0.00]
+13:50:27.512559 db@janitor F·11 G·0
+13:50:27.512596 db@open done T·3.776034ms
+13:50:27.512719 table@compaction L0·4 -> L1·1 S·1000B Q·186
+13:50:27.512762 db@close closing
+13:50:27.513412 db@close done T·648.188µs
+=============== Dec 4, 2018 (MSK) ===============
+13:50:27.513691 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:50:27.513935 version@stat F·[7 2] S·2KiB[1KiB 576B] Sc·[1.75 0.00]
+13:50:27.513967 db@open opening
+13:50:27.514073 journal@recovery F·1
+13:50:27.516580 journal@recovery recovering @323
+13:50:27.517283 memdb@flush created L0@325 N·1 S·200B "eve..ock,v187":"eve..ock,v187"
+13:50:27.520673 version@stat F·[8 2] S·2KiB[2KiB 576B] Sc·[2.00 0.00]
+13:50:27.522155 db@janitor F·12 G·0
+13:50:27.522205 db@open done T·8.219507ms
+13:50:27.522313 table@compaction L0·5 -> L1·1 S·1KiB Q·188
+13:50:27.522881 db@close closing
+13:50:27.523295 db@close done T·412.611µs
+=============== Dec 4, 2018 (MSK) ===============
+13:50:31.527347 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:50:31.529275 version@stat F·[8 2] S·2KiB[2KiB 576B] Sc·[2.00 0.00]
+13:50:31.529318 db@open opening
+13:50:31.529467 journal@recovery F·1
+13:50:31.532477 journal@recovery recovering @326
+13:50:31.533854 version@stat F·[8 2] S·2KiB[2KiB 576B] Sc·[2.00 0.00]
+13:50:31.535393 db@janitor F·12 G·0
+13:50:31.535432 db@open done T·6.090972ms
+13:50:31.535493 table@compaction L0·5 -> L1·1 S·1KiB Q·188
+13:50:31.536266 table@build created L1@330 N·1 S·200B "eve..ock,v187":"eve..ock,v187"
+13:50:31.536329 version@stat F·[3 2] S·1KiB[1KiB 576B] Sc·[0.75 0.00]
+13:50:31.536475 table@compaction committed F-5 S-1000B Ke·0 D·5 T·926.321µs
+13:50:31.536654 table@remove removed @325
+13:50:31.536813 table@remove removed @322
+13:50:31.536918 table@remove removed @292
+13:50:31.537005 table@remove removed @261
+13:50:31.537100 table@remove removed @258
+13:50:31.537232 table@remove removed @257
+13:50:31.537304 db@close closing
+13:50:31.537391 db@write was delayed N·1 T·1.759262ms
+13:50:31.537463 db@close done T·157.95µs
+=============== Dec 4, 2018 (MSK) ===============
+13:50:31.537771 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:50:31.537995 version@stat F·[3 2] S·1KiB[1KiB 576B] Sc·[0.75 0.00]
+13:50:31.538019 db@open opening
+13:50:31.538099 journal@recovery F·1
+13:50:31.538706 journal@recovery recovering @328
+13:50:31.539113 memdb@flush created L0@331 N·1 S·272B "eve..oup,v189":"eve..oup,v189"
+13:50:31.539918 version@stat F·[4 2] S·1KiB[1KiB 576B] Sc·[1.00 0.00]
+13:50:31.541313 db@janitor F·8 G·0
+13:50:31.541348 db@open done T·3.316137ms
+13:50:31.541383 table@compaction L0·4 -> L1·1 S·1KiB Q·190
+13:50:31.541418 db@close closing
+13:50:31.541421 table@build exiting
+13:50:31.541571 db@close done T·151.596µs
+=============== Dec 4, 2018 (MSK) ===============
+13:50:31.541885 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:50:31.542136 version@stat F·[4 2] S·1KiB[1KiB 576B] Sc·[1.00 0.00]
+13:50:31.542163 db@open opening
+13:50:31.542286 journal@recovery F·1
+13:50:31.542678 journal@recovery recovering @332
+13:50:31.543361 memdb@flush created L0@334 N·1 S·285B "eve..oup,v191":"eve..oup,v191"
+13:50:31.546302 version@stat F·[5 2] S·2KiB[1KiB 576B] Sc·[1.25 0.00]
+13:50:31.547579 db@janitor F·9 G·0
+13:50:31.547613 db@open done T·5.436873ms
+13:50:31.547693 table@compaction L0·5 -> L1·1 S·2KiB Q·192
+13:50:31.547745 table@build exiting
+13:50:31.547714 db@close closing
+13:50:31.547901 db@close done T·184.439µs
+=============== Dec 4, 2018 (MSK) ===============
+13:50:31.548132 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:50:31.548353 version@stat F·[5 2] S·2KiB[1KiB 576B] Sc·[1.25 0.00]
+13:50:31.548378 db@open opening
+13:50:31.548463 journal@recovery F·1
+13:50:31.551213 journal@recovery recovering @335
+13:50:31.551648 memdb@flush created L0@337 N·1 S·298B "eve..oup,v193":"eve..oup,v193"
+13:50:31.552430 version@stat F·[6 2] S·2KiB[1KiB 576B] Sc·[1.50 0.00]
+13:50:31.554101 db@janitor F·10 G·0
+13:50:31.554141 db@open done T·5.749364ms
+13:50:31.554198 table@compaction L0·6 -> L1·1 S·2KiB Q·194
+13:50:31.554232 table@build exiting
+13:50:31.554224 db@close closing
+13:50:31.554426 db@close done T·200.378µs
+=============== Dec 4, 2018 (MSK) ===============
+13:50:31.554632 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:50:31.554845 version@stat F·[6 2] S·2KiB[1KiB 576B] Sc·[1.50 0.00]
+13:50:31.554870 db@open opening
+13:50:31.554977 journal@recovery F·1
+13:50:31.555846 journal@recovery recovering @338
+13:50:31.556504 memdb@flush created L0@340 N·1 S·308B "eve..oup,v195":"eve..oup,v195"
+13:50:31.557257 version@stat F·[7 2] S·2KiB[2KiB 576B] Sc·[1.75 0.00]
+13:50:31.558564 db@janitor F·11 G·0
+13:50:31.558595 db@open done T·3.711697ms
+13:50:31.558672 db@close closing
+13:50:31.558674 table@compaction L0·7 -> L1·1 S·2KiB Q·196
+13:50:31.558719 table@build exiting
+13:50:31.558918 db@close done T·243.601µs
+=============== Dec 4, 2018 (MSK) ===============
+13:50:31.559192 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:50:31.559413 version@stat F·[7 2] S·2KiB[2KiB 576B] Sc·[1.75 0.00]
+13:50:31.559441 db@open opening
+13:50:31.559541 journal@recovery F·1
+13:50:31.560125 journal@recovery recovering @341
+13:50:31.560615 memdb@flush created L0@343 N·1 S·316B "eve..oup,v197":"eve..oup,v197"
+13:50:31.561027 version@stat F·[8 2] S·3KiB[2KiB 576B] Sc·[2.00 0.00]
+13:50:31.562021 db@janitor F·12 G·0
+13:50:31.562055 db@open done T·2.598564ms
+13:50:31.562143 table@compaction L0·8 -> L1·1 S·2KiB Q·198
+13:50:31.563373 table@build created L1@346 N·1 S·316B "eve..oup,v197":"eve..oup,v197"
+13:50:31.563425 table@commit exiting
+13:50:31.563343 db@close closing
+13:50:31.563541 db@write was delayed N·1 T·1.095662ms
+13:50:31.563666 db@close done T·322.9µs
+=============== Dec 4, 2018 (MSK) ===============
+13:50:31.563943 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:50:31.564205 version@stat F·[8 2] S·3KiB[2KiB 576B] Sc·[2.00 0.00]
+13:50:31.564241 db@open opening
+13:50:31.564347 journal@recovery F·1
+13:50:31.564701 journal@recovery recovering @344
+13:50:31.565079 memdb@flush created L0@346 N·1 S·324B "eve..oup,v199":"eve..oup,v199"
+13:50:31.565853 version@stat F·[9 2] S·3KiB[2KiB 576B] Sc·[2.25 0.00]
+13:50:31.567095 db@janitor F·13 G·0
+13:50:31.567128 db@open done T·2.865918ms
+13:50:31.567162 table@compaction L0·9 -> L1·1 S·3KiB Q·200
+13:50:31.568309 table@build created L1@349 N·1 S·324B "eve..oup,v199":"eve..oup,v199"
+13:50:31.568366 db@close closing
+13:50:31.568374 version@stat F·[0 2] S·524B[0B 524B] Sc·[0.00 0.00]
+13:50:31.568630 table@commit exiting
+13:50:31.568798 table@remove removed @346
+13:50:31.568940 table@remove removed @343
+13:50:31.569079 table@remove removed @340
+13:50:31.569223 table@remove removed @337
+13:50:31.569468 table@remove removed @334
+13:50:31.569730 table@remove removed @331
+13:50:31.569899 table@remove removed @319
+13:50:31.570125 table@remove removed @316
+13:50:31.570279 table@remove removed @313
+13:50:31.570466 table@remove removed @312
+13:50:31.570563 db@write was delayed N·1 T·1.14641ms
+13:50:31.570616 db@close done T·2.249652ms
+=============== Dec 4, 2018 (MSK) ===============
+13:50:31.570856 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:50:31.571164 version@stat F·[0 2] S·524B[0B 524B] Sc·[0.00 0.00]
+13:50:31.571197 db@open opening
+13:50:31.571300 journal@recovery F·1
+13:50:31.572447 journal@recovery recovering @347
+13:50:31.573032 memdb@flush created L0@350 N·1 S·332B "eve..oup,v201":"eve..oup,v201"
+13:50:31.573647 version@stat F·[1 2] S·856B[332B 524B] Sc·[0.25 0.00]
+13:50:31.574985 db@janitor F·5 G·0
+13:50:31.575016 db@open done T·3.802731ms
+13:50:31.575092 db@close closing
+13:50:31.575290 db@close done T·191.99µs
+=============== Dec 4, 2018 (MSK) ===============
+13:50:31.575624 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:50:31.575869 version@stat F·[1 2] S·856B[332B 524B] Sc·[0.25 0.00]
+13:50:31.575896 db@open opening
+13:50:31.575976 journal@recovery F·1
+13:50:31.576384 journal@recovery recovering @351
+13:50:31.576963 memdb@flush created L0@353 N·1 S·341B "eve..oup,v203":"eve..oup,v203"
+13:50:31.577397 version@stat F·[2 2] S·1KiB[673B 524B] Sc·[0.50 0.00]
+13:50:31.578574 db@janitor F·6 G·0
+13:50:31.578621 db@open done T·2.708015ms
+13:50:31.578712 db@close closing
+13:50:31.578873 db@close done T·158.146µs
+=============== Dec 4, 2018 (MSK) ===============
+13:50:31.579235 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:50:31.579547 version@stat F·[2 2] S·1KiB[673B 524B] Sc·[0.50 0.00]
+13:50:31.579586 db@open opening
+13:50:31.579693 journal@recovery F·1
+13:50:31.580084 journal@recovery recovering @354
+13:50:31.580440 memdb@flush created L0@356 N·1 S·200B "eve..ock,v205":"eve..ock,v205"
+13:50:31.581089 version@stat F·[3 2] S·1KiB[873B 524B] Sc·[0.75 0.00]
+13:50:31.582438 db@janitor F·7 G·0
+13:50:31.582480 db@open done T·2.871706ms
+13:50:31.582638 db@close closing
+13:50:31.582855 db@close done T·212.765µs
